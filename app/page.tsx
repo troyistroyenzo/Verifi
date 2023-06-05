@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      {/* <Features />
-      <Testimonials /> */}
+      <Features />
+      {/* <Testimonials /> */}
     </>
   );
 }
