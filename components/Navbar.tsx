@@ -34,7 +34,7 @@ import {
           bg={useColorModeValue('white', 'gray.800')}
           color={useColorModeValue('gray.600', 'white')}
           minH={'60px'}
-          py={{ base: 2 }}
+          py={{ base: 50 }}
           px={{ base: 20, md: 16}}
           borderBottom={1}
           borderStyle={'solid'}
@@ -55,18 +55,10 @@ import {
           </Flex>
           <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
             
-          <Image
-                alt={'Hero  TestImage'}
-                fit={'cover'}
-                align={'center'}
-                w={'100%'}
-                h={'100%'}
-                src='/assets/de.jpg'
-              />
+          <Text fontSize="2xl" color="black" fontFamily={'inter'} fontWeight="bold">
 
-              
-            
-  
+         VERIFI
+         </Text>
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
               <DesktopNav />
             </Flex>
@@ -261,7 +253,7 @@ import {
   
   const NAV_ITEMS: Array<NavItem> = [
     {
-      label: 'Inspiration',
+      label: 'Product',
       children: [
         {
           label: 'Explore Design Work',
@@ -276,7 +268,7 @@ import {
       ],
     },
     {
-      label: 'Find Work',
+      label: 'Solutions',
       children: [
         {
           label: 'Job Board',
@@ -291,11 +283,11 @@ import {
       ],
     },
     {
-      label: 'Learn Design',
+      label: 'Enterprise',
       href: '#',
     },
     {
-      label: 'Hire Designers',
+      label: 'Learn',
       href: '#',
     },
   ];
