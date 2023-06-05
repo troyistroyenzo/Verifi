@@ -64,7 +64,7 @@ import {
       <Box p={4}>
         <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'}>
           <Heading fontSize={{ base: '2xl', sm: '4xl' }} fontWeight={'bold'}>
-            Short heading
+          Secure Your Digital Assets and Invoices with a Decentralized Protocol
           </Heading>
           <Text color={'gray.600'} fontSize={{ base: 'sm', sm: 'lg' }}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
@@ -72,45 +72,37 @@ import {
           </Text>
         </Stack>
   
-        <Container maxW={'5xl'} mt={12}>
-          <Flex flexWrap="wrap" gridGap={6} justify="center">
+        <Container maxW={'9xl'} mt={12}>
+          <Flex flexWrap="wrap" gridGap={50} justify="center">
             <Card
-              heading={'Heading'}
-              icon={<Icon as={FcAssistant} w={10} h={10} />}
+              heading={'Asset Management'}
+              icon={<Icon as={FcAssistant} w={10} h={10}  />}
               description={
-                'Lorem ipsum dolor sit amet catetur, adipisicing elit.'
+                'Asset management feature allows businesses to mint, manage, and track digital assets on the platform.'
               }
               href={'#'}
             />
             <Card
-              heading={'Heading'}
+              heading={'Dashboard & Analytics'}
               icon={<Icon as={FcCollaboration} w={10} h={10} />}
               description={
-                'Lorem ipsum dolor sit amet catetur, adipisicing elit.'
+                'Dashboard and Analytics feature to show key metrics and analytics to help businesses make informed decisions.'
               }
               href={'#'}
             />
             <Card
-              heading={'Heading'}
+              heading={'Smart Contract Automation'}
               icon={<Icon as={FcDonate} w={10} h={10} />}
               description={
-                'Lorem ipsum dolor sit amet catetur, adipisicing elit.'
+                'Smart contract automation and external integrations feature for compliance and process efficiency'
               }
               href={'#'}
             />
             <Card
-              heading={'Heading'}
+              heading={'Interoperable Protocol'}
               icon={<Icon as={FcManager} w={10} h={10} />}
               description={
-                'Lorem ipsum dolor sit amet catetur, adipisicing elit.'
-              }
-              href={'#'}
-            />
-            <Card
-              heading={'Heading'}
-              icon={<Icon as={FcAbout} w={10} h={10} />}
-              description={
-                'Lorem ipsum dolor sit amet catetur, adipisicing elit.'
+                'Permissioned and Interoperable protocol that allows for the verification of a digital asset'
               }
               href={'#'}
             />

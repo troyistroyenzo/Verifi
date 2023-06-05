@@ -1,3 +1,5 @@
+import verifiLogo from '../assets/verifi.png';
+
 import {
     Box,
     Flex,
@@ -7,6 +9,7 @@ import {
     Stack,
     Collapse,
     Icon,
+    Image,
     Link,
     Popover,
     PopoverTrigger,
@@ -51,12 +54,18 @@ import {
             />
           </Flex>
           <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
-            <Text
-              textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
-              fontFamily={'heading'}
-              color={useColorModeValue('gray.800', 'white')}>
-              Logo
-            </Text>
+            
+          <Image
+                alt={'Hero  TestImage'}
+                fit={'cover'}
+                align={'center'}
+                w={'100%'}
+                h={'100%'}
+                src='/assets/de.jpg'
+              />
+
+              
+            
   
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
               <DesktopNav />

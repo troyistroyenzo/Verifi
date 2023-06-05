@@ -1,9 +1,10 @@
 "use client"
+
 import { Inter } from 'next/font/google'
 import { ChakraProvider } from '@chakra-ui/react'
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/HeroSection'
-// import Footer from '@/components/Footer'
+import Footer from '@/components/Footer'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -20,7 +21,7 @@ export default function RootLayout({
         <ChakraProvider>
           <Navbar/>
           {children}
-          {/* <Footer/> */}
+          <Footer/>
         </ChakraProvider></body>
     </html>
   )

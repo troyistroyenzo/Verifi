@@ -37,20 +37,18 @@ import {
                   position: 'absolute',
                   bottom: 1,
                   left: 0,
-                  bg: 'red.400',
+                  bg: 'purple.400',
                   zIndex: -1,
                 }}>
                 A Decentralized Ecosystem 
               </Text>
               <br />
-              <Text as={'span'} color={'red.400'}>
+              <Text as={'span'} color={'purple.400'}>
               for Streamlining Digital Assets
               </Text>
             </Heading>
             <Text color={'gray.500'}>
-              Snippy is a rich coding snippets app that lets you create your own
-              code snippets, categorize them, and even sync them in the cloud so
-              you can use them anywhere. All that is free!
+            Verifi is a no-code SaaS platform that ensures accurate digitization of digital assets through a trust-based consensus algorithm. Experience a scalable platform with an immutable inventory tracking system, customizable invoicing, efficient management, and seamless integration of digital assets. Trust and confidence in the ecosystem, guaranteed.
             </Text>
             <Stack
               spacing={{ base: 4, sm: 6 }}
@@ -60,9 +58,9 @@ import {
                 size={'lg'}
                 fontWeight={'normal'}
                 px={6}
-                colorScheme={'red'}
-                bg={'red.400'}
-                _hover={{ bg: 'red.500' }}>
+                colorScheme={'purple'}
+                bg={'purple.400'}
+                _hover={{ bg: 'purple.500' }}>
                 Get started
               </Button>
               <Button
@@ -88,7 +86,7 @@ import {
               top={'-20%'}
               left={0}
               zIndex={-1}
-              color={useColorModeValue('red.50', 'red.400')}
+              color={useColorModeValue('purple.50', 'purple.400')}
             />
             <Box
               position={'relative'}
