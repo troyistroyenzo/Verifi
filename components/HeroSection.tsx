@@ -69,7 +69,7 @@ import {
                 colorScheme={'purple'}
                 bg={'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 100%)'}
                 _hover={{ bg: 'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 50%)' }}>
-                Get started
+                Start Now
               </Button>
               <Button
                 rounded={'full'}
@@ -82,7 +82,7 @@ import {
             </Stack>
           </Stack>
           <Flex
-            flex={1.6}
+            flex={1.}
             justify={'center'}
             align={'center'}
             position={'relative'}
