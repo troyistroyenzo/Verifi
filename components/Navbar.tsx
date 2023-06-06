@@ -55,10 +55,10 @@ import {
           </Flex>
           <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
             
-          <Text fontSize="2xl" color="black" fontFamily={'inter'} fontWeight="bold">
-
-         VERIFI
-         </Text>
+            <Image src={'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686049839/thumbnail_stiulq.png'} 
+                  alt="Verifi Logo" 
+                  w={'10%'}
+                  />
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
               <DesktopNav />
             </Flex>
@@ -106,7 +106,7 @@ import {
     const popoverContentBgColor = useColorModeValue('white', 'gray.800');
   
     return (
-      <Stack direction={'row'} spacing={4}>
+      <Stack direction={'row'} spacing={2}>
         {NAV_ITEMS.map((navItem) => (
           <Box key={navItem.label}>
             <Popover trigger={'hover'} placement={'bottom-start'}>

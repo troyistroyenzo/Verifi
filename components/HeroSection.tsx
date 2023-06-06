@@ -1,3 +1,5 @@
+
+
 import {
     Container,
     Stack,
@@ -14,9 +16,14 @@ import {
     useColorModeValue,
   } from '@chakra-ui/react';
   
+  import Hero from '/assets/1.svg';
+
   export default function HeroSection() {
+    
     return (
+      
       <Container maxW={'7xl'}>
+        
         <Stack
           align={'center'}
           spacing={{ base: 8, md: 10 }}
@@ -25,10 +32,12 @@ import {
           <Stack flex={1} spacing={{ base: 5, md: 10 }}>
             <Heading
               lineHeight={1.1}
-              fontWeight={600}
+              fontWeight={700}
               fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}>
               <Text
                 as={'span'}
+                backgroundImage= 'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 100%)'
+                backgroundClip= 'text'
                 position={'relative'}
                 _after={{
                   content: "''",
@@ -37,18 +46,17 @@ import {
                   position: 'absolute',
                   bottom: 1,
                   left: 0,
-                  bg: 'purple.400',
+                  // bg: 'purple.400',
                   zIndex: -1,
                 }}>
                 A Decentralized Ecosystem 
               </Text>
               <br />
-              <Text as={'span'} color={'purple.400'}>
+              <Text as={'span'}>
               for Streamlining Digital Assets
               </Text>
             </Heading>
             <Text color={'gray.500'}>
-            Verifi is a no-code SaaS platform that ensures accurate digitization of digital assets through a trust-based consensus algorithm. Experience a scalable platform with an immutable inventory tracking system, customizable invoicing, efficient management, and seamless integration of digital assets. Trust and confidence in the ecosystem, guaranteed.
             </Text>
             <Stack
               spacing={{ base: 4, sm: 6 }}
@@ -59,8 +67,8 @@ import {
                 fontWeight={'normal'}
                 px={6}
                 colorScheme={'purple'}
-                bg={'purple.400'}
-                _hover={{ bg: 'purple.500' }}>
+                bg={'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 100%)'}
+                _hover={{ bg: 'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 50%)' }}>
                 Get started
               </Button>
               <Button
@@ -74,50 +82,37 @@ import {
             </Stack>
           </Stack>
           <Flex
-            flex={1}
+            flex={1.6}
             justify={'center'}
             align={'center'}
             position={'relative'}
             w={'full'}>
             <Blob
               w={'150%'}
-              h={'150%'}
+              h={'250%'}
               position={'absolute'}
               top={'-20%'}
-              left={0}
+              left={10}
               zIndex={-1}
               color={useColorModeValue('purple.50', 'purple.400')}
             />
-            <Box
-              position={'relative'}
-              height={'300px'}
-              rounded={'2xl'}
-              boxShadow={'2xl'}
-              width={'full'}
-              overflow={'hidden'}>
-              <IconButton
-                aria-label={'Play Button'}
-                variant={'ghost'}
-                _hover={{ bg: 'transparent' }}
-                icon={<PlayIcon w={12} h={12} />}
-                size={'lg'}
-                color={'white'}
-                position={'absolute'}
-                left={'50%'}
-                top={'50%'}
-                transform={'translateX(-50%) translateY(-50%)'}
-              />
-              <Image
+            <Blob
+              w={'150%'}
+              h={'250%'}
+              position={'absolute'}
+              top={'-20%'}
+              left={-300}
+              zIndex={-1}
+              color={useColorModeValue('pink.50', 'purple.400')}
+              
+            />
+            <Image
                 alt={'Hero Image'}
-                fit={'cover'}
                 align={'center'}
-                w={'100%'}
-                h={'100%'}
-                src={
-                  'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80'
-                }
+                w={'200%'}
+                src={'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686049883/VeriFi_dtnzcz.png'}
+                contentEditable={false}
               />
-            </Box>
           </Flex>
         </Stack>
       </Container>
