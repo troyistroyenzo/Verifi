@@ -64,14 +64,13 @@ import {
       <Box p={4}>
         <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'}>
           <Heading fontSize={{ base: '2xl', sm: '4xl' }} fontWeight={'bold'}>
-          Secure Your Digital Assets and Invoices with a Decentralized Protocol
+          Secure Your Digital Assets with Decentralized Protocol
           </Heading>
-          <Text color={'gray.600'} fontSize={{ base: 'sm', sm: 'lg' }}>
+          {/* <Text color={'gray.600'} fontSize={{ base: 'sm', sm: 'lg' }}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
             obcaecati ut cupiditate pariatur, dignissimos, placeat amet officiis.
-          </Text>
+          </Text> */}
         </Stack>
-  
         <Container maxW={'9xl'} mt={12}>
           <Flex flexWrap="wrap" gridGap={50} justify="center">
             <Card

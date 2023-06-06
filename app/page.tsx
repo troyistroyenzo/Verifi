@@ -9,9 +9,12 @@ import Statistics from '../components/Statistics';
 export default function Home() {
   return (
     <>
-      <HeroSection />
+        <HeroSection />
+      <br /> {/* Break between modules */}
       <Features />
+      <br /> {/* Break between modules */}
       <Statistics/>
+      <br /> {/* Break between modules */}
       <Pricing />
     </>
   );

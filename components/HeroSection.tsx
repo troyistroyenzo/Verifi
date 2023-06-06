@@ -31,7 +31,9 @@ import {
           direction={{ base: 'column', md: 'row' }}>
           <Stack flex={1} spacing={{ base: 5, md: 10 }}>
             <Heading
-              lineHeight={1.1}
+              fontFamily={'inter'}
+              lineHeight={'70px'}
+              letterSpacing={-2.25}
               fontWeight={700}
               fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}>
               <Text
@@ -52,19 +54,20 @@ import {
                 A Decentralized Ecosystem 
               </Text>
               <br />
-              <Text as={'span'}>
-              for Streamlining Digital Assets
+              <Text as={'span'} >
+              for streamlining digital assets
               </Text>
             </Heading>
-            <Text color={'gray.500'}>
+            <Text fontWeight={700}>
+            Providing secure and reliable digital assets verification solution for businesses. 
             </Text>
             <Stack
               spacing={{ base: 4, sm: 6 }}
               direction={{ base: 'column', sm: 'row' }}>
               <Button
-                rounded={'full'}
                 size={'lg'}
-                fontWeight={'normal'}
+                fontFamily={'inter'}
+                fontWeight={700}
                 px={6}
                 colorScheme={'purple'}
                 bg={'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 100%)'}
@@ -72,11 +75,14 @@ import {
                 Start Now
               </Button>
               <Button
-                rounded={'full'}
                 size={'lg'}
-                fontWeight={'normal'}
+                fontFamily={'inter'}
+                fontWeight={700}
                 px={6}
-                leftIcon={<PlayIcon h={4} w={4} color={'gray.300'} />}>
+                colorScheme={'purple'}
+                bg={'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 100%)'}
+                _hover={{ bg: 'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 50%)' }}
+                leftIcon={<PlayIcon h={4} w={4} color={'gray.00'} />}>
                 How It Works
               </Button>
             </Stack>
@@ -104,7 +110,6 @@ import {
               left={-300}
               zIndex={-1}
               color={useColorModeValue('pink.50', 'purple.400')}
-              
             />
             <Image
                 alt={'Hero Image'}
