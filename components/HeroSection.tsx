@@ -67,7 +67,7 @@ import {
               <Button
                 size={'lg'}
                 fontFamily={'inter'}
-                fontWeight={700}
+                fontWeight={650}
                 px={6}
                 colorScheme={'purple'}
                 bg={'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 100%)'}
@@ -77,7 +77,7 @@ import {
               <Button
                 size={'lg'}
                 fontFamily={'inter'}
-                fontWeight={700}
+                fontWeight={650}
                 px={6}
                 colorScheme={'purple'}
                 bg={'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 100%)'}
