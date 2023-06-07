@@ -1,5 +1,6 @@
 
-import { Inter } from 'next/font/google'
+import "@fontsource/inter"
+import "@fontsource/heebo"
 
 import {
     Container,
@@ -34,7 +35,7 @@ import {
             <Heading
               letterSpacing={-2.0}
               fontWeight={700}
-              fontFamily={'Inter'}
+              fontFamily={'heebo'}
               fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}>
               <Text
                 as={'span'}
