@@ -32,7 +32,6 @@ import {
           <Stack flex={1} spacing={{ base: 5, md: 10 }}>
             <Heading
               letterSpacing={-2.25}
-              fontFamily={'Inter'}
               fontWeight={700}
               fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}>
               <Text
@@ -66,7 +65,6 @@ import {
               <a href="https://verifi-dashboard.vercel.app/">
                 <Button
                   size={'lg'}
-
                   fontWeight={650}
                   px={6}
                   colorScheme={'purple'}
@@ -83,7 +81,7 @@ import {
                 bg={'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 100%)'}
                 _hover={{ bg: 'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 50%)' }}
                 leftIcon={<PlayIcon h={4} w={4} color={'gray.00'} />}>
-                How It Works
+                Demo
               </Button>
             </Stack>
           </Stack>
