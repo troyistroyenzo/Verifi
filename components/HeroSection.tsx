@@ -35,7 +35,7 @@ import {
             <Heading
               letterSpacing={-2.0}
               fontWeight={700}
-              fontFamily={'heebo'}
+              fontFamily={'inter'}
               fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}>
               <Text
                 as={'span'}
