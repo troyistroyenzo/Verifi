@@ -64,16 +64,18 @@ import {
             <Stack
               spacing={{ base: 4, sm: 6 }}
               direction={{ base: 'column', sm: 'row' }}>
-              <Button
-                size={'lg'}
-                fontFamily={'inter'}
-                fontWeight={650}
-                px={6}
-                colorScheme={'purple'}
-                bg={'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 100%)'}
-                _hover={{ bg: 'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 50%)' }}>
-                Start Now
-              </Button>
+              <a href="https://verifi-dashboard.vercel.app/">
+                <Button
+                  size={'lg'}
+                  fontFamily={'inter'}
+                  fontWeight={650}
+                  px={6}
+                  colorScheme={'purple'}
+                  bg={'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 100%)'}
+                  _hover={{ bg: 'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 50%)' }}>
+                  Start Now
+                </Button>
+              </a>
               <Button
                 size={'lg'}
                 fontFamily={'inter'}

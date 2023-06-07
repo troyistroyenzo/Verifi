@@ -4,6 +4,7 @@ import {
     Container,
     Flex,
     Heading,
+    Image,
     Icon,
     Stack,
     Text,
@@ -28,25 +29,24 @@ import {
   const Card = ({ heading, description, icon, href }: CardProps) => {
     return (
       <Box
-        maxW={{ base: 'full', md: '275px' }}
+        maxW={{ base: 'full', md: '500px' }}
         w={'full'}
-        borderWidth="1px"
+        fontWeight={500}
         borderRadius="lg"
         overflow="hidden"
+        textAlign={'center'}
         p={5}>
         <Stack align={'start'} spacing={2}>
           <Flex
-            w={16}
-            h={16}
+            w={'full'}
+            h={'full'}
             align={'center'}
             justify={'center'}
-            color={'white'}
-            rounded={'full'}
-            bg={useColorModeValue('gray.100', 'gray.700')}>
+            color={'white'}>
             {icon}
           </Flex>
           <Box mt={2}>
-            <Heading size="md">{heading}</Heading>
+            <Heading fontFamily={'inter'} size="lg" padding={2} fontWeight={700} letterSpacing={-1}>{heading}</Heading>
             <Text mt={1} fontSize={'sm'}>
               {description}
             </Text>
@@ -61,21 +61,14 @@ import {
   
   export default function Features() {
     return (
-      <Box p={4}>
-        <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'}>
-          <Heading fontSize={{ base: '2xl', sm: '4xl' }} fontWeight={'bold'}>
-          Secure Your Digital Assets with Decentralized Protocol
-          </Heading>
-          {/* <Text color={'gray.600'} fontSize={{ base: 'sm', sm: 'lg' }}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            obcaecati ut cupiditate pariatur, dignissimos, placeat amet officiis.
-          </Text> */}
+      <Box p={25}>
+        <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'} >
         </Stack>
-        <Container maxW={'9xl'} mt={12}>
+        <Container maxW={'1xl'} mt={5}>
           <Flex flexWrap="wrap" gridGap={50} justify="center">
             <Card
-              heading={'Asset Management'}
-              icon={<Icon as={FcAssistant} w={10} h={10}  />}
+              heading={'Decentralized Protocol'}  
+              icon={<Icon as={Image} src="https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124341/2_ivfsda.png" w={'75%'} h={'full'}/>}
               description={
                 'Asset management feature allows businesses to mint, manage, and track digital assets on the platform.'
               }
@@ -83,7 +76,7 @@ import {
             />
             <Card
               heading={'Dashboard & Analytics'}
-              icon={<Icon as={FcCollaboration} w={10} h={10} />}
+              icon={<Icon as={Image} src="https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124341/2_ivfsda.png" w={'75%'} h={'full'}/>}
               description={
                 'Dashboard and Analytics feature to show key metrics and analytics to help businesses make informed decisions.'
               }
@@ -91,7 +84,7 @@ import {
             />
             <Card
               heading={'Smart Contract Automation'}
-              icon={<Icon as={FcDonate} w={10} h={10} />}
+              icon={<Icon as={Image} src="https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124341/2_ivfsda.png" w={'75%'} h={'full'}/>}
               description={
                 'Smart contract automation and external integrations feature for compliance and process efficiency'
               }

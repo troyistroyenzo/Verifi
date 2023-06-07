@@ -57,7 +57,7 @@ import {
             
             <Image src={'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686049839/thumbnail_stiulq.png'} 
                   alt="Verifi Logo" 
-                  w={'10%'}
+                  maxWidth={100}
                   />
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
               <DesktopNav />
