@@ -31,7 +31,6 @@ import {
           direction={{ base: 'column', md: 'row' }}>
           <Stack flex={1} spacing={{ base: 5, md: 10 }}>
             <Heading
-              fontFamily={'inter'}
               lineHeight={'70px'}
               letterSpacing={-2.25}
               fontWeight={700}
@@ -67,7 +66,7 @@ import {
               <a href="https://verifi-dashboard.vercel.app/">
                 <Button
                   size={'lg'}
-                  fontFamily={'inter'}
+
                   fontWeight={650}
                   px={6}
                   colorScheme={'purple'}
@@ -78,7 +77,6 @@ import {
               </a>
               <Button
                 size={'lg'}
-                fontFamily={'inter'}
                 fontWeight={650}
                 px={6}
                 colorScheme={'purple'}
