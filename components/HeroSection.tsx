@@ -73,6 +73,7 @@ import {
                   Start Now
                 </Button>
               </a>
+              <a href="https://verifi-dashboard.vercel.app/">
               <Button
                 size={'lg'}
                 fontWeight={650}
@@ -81,8 +82,9 @@ import {
                 bg={'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 100%)'}
                 _hover={{ bg: 'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 50%)' }}
                 leftIcon={<PlayIcon h={4} w={4} color={'gray.00'} />}>
-                Demo
+                How It Works
               </Button>
+              </a>
             </Stack>
           </Stack>
           <Flex
