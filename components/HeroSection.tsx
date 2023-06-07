@@ -1,7 +1,6 @@
 
 import { Inter } from 'next/font/google'
 
-
 import {
     Container,
     Stack,
@@ -35,7 +34,7 @@ import {
             <Heading
               letterSpacing={-2.0}
               fontWeight={700}
-              fontFamily={'inter'}
+              fontFamily={'Inter'}
               fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}>
               <Text
                 as={'span'}
