@@ -71,7 +71,7 @@ import { Fa500Px } from 'react-icons/fa';
               heading={'Decentralized Protocol'}  
               icon={<Icon as={Image} src="https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124341/2_ivfsda.png" w={'75%'} h={'full'}/>}
               description={
-                'Asset management feature allows businesses to mint, manage, and track digital assets on the platform.'
+                'Asset management allowing businesses to mint, manage, and track digital assets on a decentralized platform.'
               }
               href={'#'}
             />
@@ -79,15 +79,15 @@ import { Fa500Px } from 'react-icons/fa';
               heading={'Highly Scalable'}
               icon={<Icon as={Image} src="https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124340/3_co6vpe.png" w={'75%'} h={'full'}/>}
               description={
-                'Dashboard and Analytics feature to show key metrics and analytics to help businesses make informed decisions.'
+                'Scalable platform with an immutable inventory tracking system, customizable invoicing, efficient management and seamless integration of digital assets.'
               }
               href={'#'}
             />
             <Card
-              heading={'Tamper Proof '}
+              heading={'More secure, than ever'}
               icon={<Icon as={Image} src="https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124340/4_ry3m55.png" w={'75%'} h={'full'}/>}
               description={
-                'Smart contract automation and external integrations feature for compliance and process efficiency'
+                'A tamper-proof system that builds trust and confidence in the ecosystem.'
               }
               href={'#'}
             />
@@ -95,7 +95,7 @@ import { Fa500Px } from 'react-icons/fa';
               heading={'Integrated With IPFS & ZK Proofs'}
               icon={<Icon as={Image} src="https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124340/5_epvch7.png" w={'75%'} h={'full'}/>}
               description={
-                'Permissioned and Interoperable protocol that allows for the verification of a digital asset'
+                'Secure data, prove business logic, and enable self-sovereign data with integrated IPFS and ZK Proofs.'
               }
               href={'#'}
             />
