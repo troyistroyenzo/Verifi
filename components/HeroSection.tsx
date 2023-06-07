@@ -31,8 +31,8 @@ import {
           direction={{ base: 'column', md: 'row' }}>
           <Stack flex={1} spacing={{ base: 5, md: 10 }}>
             <Heading
-              lineHeight={'70px'}
               letterSpacing={-2.25}
+              fontFamily={'Inter'}
               fontWeight={700}
               fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}>
               <Text
