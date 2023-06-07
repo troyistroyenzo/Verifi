@@ -48,7 +48,7 @@ export default function StatsGridWithImage() {
               </Text> */}
             </Box>
 
-            <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} pd={10} >
+            <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
               {stats.map((stat) => (
                 <Box key={stat.title} 
                     fontWeight={700}
