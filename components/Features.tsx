@@ -11,6 +11,7 @@ import {
     useColorModeValue,
   } from '@chakra-ui/react';
   import { ReactElement } from 'react';
+import { Fa500Px } from 'react-icons/fa';
   import {
     FcAbout,
     FcAssistant,
@@ -52,7 +53,7 @@ import {
             </Text>
           </Box>
           <Button variant={'link'} colorScheme={'blue'} size={'sm'}>
-            Learn more
+            Learn More
           </Button>
         </Stack>
       </Box>
@@ -75,24 +76,24 @@ import {
               href={'#'}
             />
             <Card
-              heading={'Dashboard & Analytics'}
-              icon={<Icon as={Image} src="https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124341/2_ivfsda.png" w={'75%'} h={'full'}/>}
+              heading={'Highly Scalable'}
+              icon={<Icon as={Image} src="https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124340/3_co6vpe.png" w={'75%'} h={'full'}/>}
               description={
                 'Dashboard and Analytics feature to show key metrics and analytics to help businesses make informed decisions.'
               }
               href={'#'}
             />
             <Card
-              heading={'Smart Contract Automation'}
-              icon={<Icon as={Image} src="https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124341/2_ivfsda.png" w={'75%'} h={'full'}/>}
+              heading={'Tamper Proof '}
+              icon={<Icon as={Image} src="https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124340/4_ry3m55.png" w={'75%'} h={'full'}/>}
               description={
                 'Smart contract automation and external integrations feature for compliance and process efficiency'
               }
               href={'#'}
             />
             <Card
-              heading={'Interoperable Protocol'}
-              icon={<Icon as={FcManager} w={10} h={10} />}
+              heading={'Integrated With IPFS & ZK Proofs'}
+              icon={<Icon as={Image} src="https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124340/5_epvch7.png" w={'75%'} h={'full'}/>}
               description={
                 'Permissioned and Interoperable protocol that allows for the verification of a digital asset'
               }

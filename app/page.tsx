@@ -6,6 +6,7 @@ import Features from '../components/Features';
 import Pricing from '../components/Pricing';
 import Statistics from '../components/Statistics';
 import Statement from '../components/Statement';
+import Whitepaper from '../components/Whitepaper';
 
 export default function Home() {
   return (
@@ -13,8 +14,12 @@ export default function Home() {
         <HeroSection />
       <br /> {/* Break between modules */}
       <Statement/>
+      <br /> {/* Break between modules */}
       <Features />
       <br /> {/* Break between modules */}
+      <Whitepaper />
+      <br /> {/* Break between modules */}  
+      
       <Statistics/>
       <br /> {/* Break between modules */}
       <Pricing />
