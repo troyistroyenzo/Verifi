@@ -1,6 +1,6 @@
 
-import "@fontsource/inter"
-import "@fontsource/heebo"
+
+
 
 import {
     Container,
@@ -17,8 +17,8 @@ import {
     IconProps,
     useColorModeValue,
   } from '@chakra-ui/react';
-  
-  import Hero from '/assets/1.svg';
+
+  import "@fontsource/inter"
 
   export default function HeroSection() {
     
@@ -59,8 +59,8 @@ import {
               for streamlining digital assets
               </Text>
             </Heading>
-            <Text fontWeight={700}>
-            Providing secure and reliable digital assets verification solution for businesses. 
+            <Text fontWeight={700} fontSize={'lg'}>
+            The software solution to providing secure and reliable digital assets verification solution for businesses 
             </Text>
             <Stack
               spacing={{ base: 4, sm: 6 }}
@@ -95,6 +95,7 @@ import {
             justify={'center'}
             align={'center'}
             position={'relative'}
+            padding={5}
             w={'full'}>
             <Blob
               w={'150%'}
@@ -117,7 +118,7 @@ import {
             <Image
                 alt={'Hero Image'}
                 align={'center'}
-                w={'200%'}
+                maxW={'150%'}
                 src={'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686049883/VeriFi_dtnzcz.png'}
                 contentEditable={false}
               />

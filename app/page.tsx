@@ -7,6 +7,7 @@ import Pricing from '../components/Pricing';
 import Statistics from '../components/Statistics';
 import Statement from '../components/Statement';
 import Whitepaper from '../components/Whitepaper';
+import Product from '../components/Product';
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
       <Statement/>
       <br /> {/* Break between modules */}
       <Features />
+      <br /> {/* Break between modules */}
+      <Product />
       <br /> {/* Break between modules */}
       <Whitepaper />
       <br /> {/* Break between modules */}  
