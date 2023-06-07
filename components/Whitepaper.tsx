@@ -15,11 +15,13 @@ export default function SimpleCookiePreference() {
         direction={{ base: 'column', md: 'row' }}
         justifyContent="space-between">
         <Text fontSize={{ base: 'lg' }} fontWeight={600} textAlign={'left'} maxW={'4xl'}>
-          VeriFi is the decentralized ecosystem for businesses looking to scale and enter web3
+        Centralized Record Keeping Systems are vulnerable and inefficient. VeriFi is the decentralized ecosystem for businesses looking to scale and enter web3
         </Text>
       </Stack>
       <Stack direction={{ base: 'column', md: 'row' }} p={5}>
-          <Button variant="outline" colorScheme="cyan" color={'white'}>
+          <Button variant="outline" 
+          _hover={{ bg: 'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 50%)' }}
+            colorScheme="cyan" color={'white'}>
             Whitepaper
           </Button>
           <Button colorScheme="pink">Docs</Button>
