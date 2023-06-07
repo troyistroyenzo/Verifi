@@ -12,6 +12,7 @@ import {
       <Flex
         w={'full'}
         h={'50vh'}
+        letterSpacing={-2.25}
         backgroundSize={'cover'}
         backgroundPosition={'center center'}>
         <VStack
@@ -22,7 +23,6 @@ import {
             <Text
               backgroundImage= 'linear-gradient(78deg, rgb(56,128,255) 0%, rgb(25,234,141) 100%)'
               backgroundClip= 'text'
-              fontFamily={'inter'}
               fontWeight={700}
               lineHeight={1.2}
               fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
@@ -32,7 +32,6 @@ import {
             <Text
               backgroundImage= 'linear-gradient(78deg, rgb(59,178,200) 0%, rgb(106,107,206) 100%)'
               backgroundClip= 'text'
-              fontFamily={'inter'}
               fontWeight={700}
               lineHeight={1.2}
               textAlign={'right'}
@@ -42,7 +41,7 @@ import {
             <Stack direction={'column'}>
             </Stack>
           </Stack>
-          <Button
+          {/* <Button
                 bg='linear-gradient(78deg, rgb(56,128,255) 0%, rgb(25,234,141) 100%)'
                 rounded={'full'}
                 color={'white'}
@@ -55,7 +54,7 @@ import {
                 color={'white'}
                 _hover={{ bg: 'whiteAlpha.500' }}>
                 Show me more
-              </Button>
+              </Button> */}
         </VStack>
       </Flex>
     );

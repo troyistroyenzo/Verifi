@@ -19,10 +19,9 @@ export default function Home() {
       <br /> {/* Break between modules */}
       <Whitepaper />
       <br /> {/* Break between modules */}  
-      
-      <Statistics/>
+      {/* <Statistics/> */}
       <br /> {/* Break between modules */}
-      <Pricing />
+      {/* <Pricing /> */}
     </>
   );
 }
