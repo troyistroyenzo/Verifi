@@ -14,11 +14,7 @@ import {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        p={4}
-        bg="gray.200"
-        rounded="md"
-        boxShadow="md">
+        exit={{ opacity: 0 }}>
       <Flex
         w={'full'}
         h={'50vh'}
