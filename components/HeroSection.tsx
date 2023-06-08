@@ -1,6 +1,7 @@
 
 
 
+import { motion } from "framer-motion";
 
 import {
     Container,
@@ -22,10 +23,17 @@ import {
 
   export default function HeroSection() {
     
+
+
     return (
-      
+      <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      rounded="md"
+      boxShadow="md"
+    >
       <Container maxW={'7xl'}>
-        
         <Stack
           align={'center'}
           spacing={{ base: 8, md: 10 }}
@@ -124,6 +132,7 @@ import {
           </Flex>
         </Stack>
       </Container>
+      </motion.div>
     );
   }
   
