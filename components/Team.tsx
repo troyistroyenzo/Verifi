@@ -26,7 +26,6 @@ import {
             size={'xl'}
             src={
               'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686235762/troy-expanded-dp_joim54.png'}
-            alt={'Avatar Alt'}
             mb={4}
             pos={'relative'}
             _after={{
