@@ -13,29 +13,26 @@ import { Fade } from "@chakra-ui/react";
 export default function Home() {
   return (
     <>
-      <Fade in transition={{ enter: { duration: 1 } }}> 
+      <Fade in transition={{ enter: { duration: 5 } }}> 
         <HeroSection />
-      </Fade>
+      
       <br /> 
-      <Fade in transition={{ enter: { duration: 2 } }}>
+      
         <Statement/>
-      </Fade>
+     
       <br /> 
-      <Fade in transition={{ enter: { duration: 4 } }}>
+     
         <Features />
-      </Fade>
+     
       <br /> 
-      <Fade in transition={{ enter: { duration: 6 } }}>
+      
         <Product />
-      </Fade>
+      
       <br /> 
-      <Fade in transition={{ enter: { duration: 8 } }}>
+      
         <Whitepaper />
       </Fade>
-      <br /> {/* Break between modules */}  
-      {/* <Statistics/> */}
-      <br /> {/* Break between modules */}
-      {/* <Pricing /> */}
+      
     </>
   );
 }

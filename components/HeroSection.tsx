@@ -1,7 +1,7 @@
 
 
 
-import { Fade } from "@chakra-ui/react";
+
 
 import {
     Container,
@@ -21,12 +21,13 @@ import {
 
   import "@fontsource/inter"
 
+
   export default function HeroSection() {
     
 
 
     return (
-      <Fade in>
+      
         
       <Container maxW={'7xl'}>
         <Stack
@@ -127,7 +128,7 @@ import {
           </Flex>
         </Stack>
       </Container>
-      </Fade>
+   
       
     );
   }
