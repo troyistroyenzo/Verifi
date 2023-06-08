@@ -25,7 +25,6 @@ import {
           px={useBreakpointValue({ base: 4, md: 8 })}>
           <Stack maxW={'2xl'} align={'flex-start'} spacing={6}>
             <Text
-              color={'white'}
               fontWeight={700}
               lineHeight={'53px'}
               color={'black'}
@@ -35,7 +34,6 @@ import {
             </Text>
             <Stack direction={'row'}>
             <Text
-              color={'white'}
               fontWeight={700}
               lineHeight={1.2}
               color={'#7d7d7d'}
@@ -45,7 +43,6 @@ import {
             </Text>
             </Stack>
             <Text
-              color={'white'}
               fontWeight={400}
               lineHeight={1.2}
               color={'black'}
@@ -53,7 +50,6 @@ import {
               We want to make it easier for businsess to deal with their transactions
             </Text>
             <Text
-              color={'white'}
               paddingTop={90}
               fontWeight={700}
               lineHeight={'53px'}
@@ -77,7 +73,6 @@ import {
                     size={'xl'}
                     src={
                     'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686235762/troy-expanded-dp_joim54.png'}
-                    alt={'Avatar Alt'}
                     mb={4}
                     pos={'relative'}
                     _after={{
