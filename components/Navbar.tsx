@@ -253,6 +253,10 @@ import {
   
   const NAV_ITEMS: Array<NavItem> = [
     {
+      label: 'About',
+      href: 'about',
+    },
+    {
       label: 'Product',
       children: [
         {
@@ -286,8 +290,5 @@ import {
       label: 'Enterprise',
       href: '#',
     },
-    {
-      label: 'About',
-      href: 'about',
-    },
+    
   ];
