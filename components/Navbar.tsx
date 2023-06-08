@@ -288,6 +288,6 @@ import {
     },
     {
       label: 'About',
-      href: '/about',
+      href: 'about',
     },
   ];
