@@ -287,7 +287,7 @@ import {
       href: '#',
     },
     {
-      label: 'Learn',
-      href: '#',
+      label: 'About',
+      href: '/about',
     },
   ];
