@@ -11,10 +11,6 @@ import {
   
   export default function Statement() {
     return (
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}>
       <Flex
         w={'full'}
         h={'50vh'}
@@ -63,6 +59,5 @@ import {
               </Button> */}
         </VStack>
       </Flex>
-      </motion.div>
     );
   }

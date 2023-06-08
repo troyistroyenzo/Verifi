@@ -1,7 +1,7 @@
 
 
 
-import { motion } from "framer-motion";
+import { Fade } from "@chakra-ui/react";
 
 import {
     Container,
@@ -26,13 +26,8 @@ import {
 
 
     return (
-      <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      rounded="md"
-      boxShadow="md"
-    >
+      <Fade in>
+        
       <Container maxW={'7xl'}>
         <Stack
           align={'center'}
@@ -132,7 +127,8 @@ import {
           </Flex>
         </Stack>
       </Container>
-      </motion.div>
+      </Fade>
+      
     );
   }
   

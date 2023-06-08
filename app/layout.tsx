@@ -7,12 +7,15 @@ import Hero from '@/components/HeroSection'
 import Footer from '@/components/Footer'
 
 import './globals.css'
+import { useRouter } from 'next/router'
 
 
 const inter = Inter({ subsets: ['latin'] })
 
 
+
 export default function RootLayout({
+  
   children,
 }: {
   children: React.ReactNode
@@ -21,9 +24,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ChakraProvider>
-          <Navbar/>
-          {children}
-          <Footer/>
+            <Navbar/>
+            {children}
+            <Footer/>
         </ChakraProvider></body>
     </html>
   )
