@@ -40,7 +40,7 @@ import {
               color={'#7d7d7d'}
               letterSpacing={-2.25}
               fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
-              We want to make it easier for businsesses to deal with their transactions
+              We want to make it easier for businesses to deal with their transactions
             </Text>
             </Stack>
             <Text
@@ -48,7 +48,7 @@ import {
               lineHeight={1.2}
               color={'black'}
               fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
-              Does your company value time, resources and money? We do too. That's why we're building VeriFi, to help businesses save time, resources and money. 
+              Does your company value time, resources and money? We do too. That&apos;s why we&apos;re building VeriFi, to help businesses save time, resources and money. 
               With our platform, 
               businesses can supercharge their day-to-day operations by leveraging the power of blockchain technology.
             </Text>
