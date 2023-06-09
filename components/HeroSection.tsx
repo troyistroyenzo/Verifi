@@ -95,33 +95,18 @@ import {
             </Stack>
           </Stack>
           <Flex
-            flex={1.}
+            flex={1.0}
             justify={'center'}
             align={'center'}
             position={'relative'}
-            w={'full'}>
-            <Blob
-              w={'150%'}
-              h={'250%'}
-              position={'absolute'}
-              top={'-20%'}
-              left={10}
-              zIndex={-1}
-              color={useColorModeValue('purple.50', 'purple.400')}
-            />
-            <Blob
-              w={'150%'}
-              h={'250%'}
-              position={'absolute'}
-              top={'-20%'}
-              left={-300}
-              zIndex={-1}
-              color={useColorModeValue('pink.50', 'purple.400')}
-            />
+            maxW={'100%'}>
+            
             <Image
+                top={90}
+                margin={10}
                 alt={'Hero Image'}
                 align={'center'}
-                maxW={'125%'}
+                maxWidth={'100%'}
                 src={'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686049883/VeriFi_dtnzcz.png'}
                 contentEditable={false}
               />

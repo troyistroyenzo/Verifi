@@ -23,19 +23,19 @@ export default function Home() {
      
       <br /> 
       </Fade>
-        <Features />
+       <Features />
      
       <br /> 
       
         <Product />
-        
+
       <br /> 
 
         <Architecture />
       
       <br /> 
       
-        <Whitepaper />
+        <Whitepaper /> 
       
       
     </>
