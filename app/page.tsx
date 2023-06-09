@@ -15,21 +15,17 @@ export default function Home() {
   return (
     <>
       <Fade in transition={{ enter: { duration: 5 }}}> 
-        <HeroSection />
-      
-      <br /> 
-      
+        <HeroSection /> 
+
         <Statement/>
      
-      <br /> 
+
       </Fade>
        <Features />
      
       <br /> 
       
         <Product />
-
-      <br /> 
 
         <Architecture />
       

@@ -13,7 +13,7 @@ import {
     return (
       <Flex
         w={'full'}
-        h={'50vh'}
+        minH={'30vh'}
         letterSpacing={-2.25}
         backgroundSize={'cover'}
         backgroundPosition={'center center'}>

@@ -28,17 +28,19 @@ export default function StatsGridWithImage() {
           h={'full'}
         />
       </Flex>
-      <Container maxW={'6xl'} zIndex={10} position={'relative'}>
+      <Container maxW={'5xl'} zIndex={10} position={'relative'}>
         <Stack direction={{ base: 'column', lg: 'column' }}>
           <Stack
             flex={1}
             justify={{ lg: 'center' }}
-            py={{ base: 4, md: 20, xl: 60 }}>
+            py={{ base: 4, md: 15, xl: 35 }}>
             <Box mb={{ base: 8, md: 20 }}>
               <Heading
                 mb={5}
                 fontSize={{ base: '3xl', md: '5xl' }}
                 textAlign={'center'}
+                backgroundImage= 'linear-gradient(78deg, rgb(59,178,200) 0%, rgb(106,107,206) 100%)'
+                backgroundClip= 'text'
                 letterSpacing={-2.25}
                 fontFamily={'inter'}>
                 What businesses can do with VeriFi

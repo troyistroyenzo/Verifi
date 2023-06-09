@@ -22,7 +22,7 @@ import {
   export default function Simple() {
     return (
       <Container maxW={'7xl'}>
-        <SimpleGrid columns={{ base: 1, lg: 2 }} spacing={{ base: 8, md: 20 }} py={{ base: 18, md: 24 }} >
+        <SimpleGrid columns={{ base: 1, lg: 2 }} spacing={{ base: 8, md: 20 }} py={{ base: 18, md: 24 }}>
           <Stack  p={15}>
             <Box as={'header'}>
               <Heading
@@ -30,6 +30,8 @@ import {
                 lineHeight={1.1}
                 fontWeight={700}
                 letterSpacing={'-2.25'}
+                backgroundImage= 'linear-gradient(78deg, rgb(59,178,200) 0%, rgb(106,107,206) 100%)'
+                backgroundClip= 'text'
                 fontSize={{ base: '2xl', sm: '4xl', lg: '5xl' }}>
                 VeriFi Architecture
               </Heading>
