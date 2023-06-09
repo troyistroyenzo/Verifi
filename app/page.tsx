@@ -8,7 +8,7 @@ import Statistics from '../components/Statistics';
 import Statement from '../components/Statement';
 import Whitepaper from '../components/Whitepaper';
 import Product from '../components/Product';
-import Team from '../components/Team';
+import Architecture from '../components/Architecture';
 import { Fade } from "@chakra-ui/react";
 
 export default function Home() {
@@ -28,12 +28,15 @@ export default function Home() {
       <br /> 
       
         <Product />
+        
+      <br /> 
+
+        <Architecture />
       
       <br /> 
       
         <Whitepaper />
       
-      <Team />
       
     </>
   );

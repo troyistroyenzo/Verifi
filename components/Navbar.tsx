@@ -39,7 +39,8 @@ import {
           borderBottom={1}
           borderStyle={'solid'}
           borderColor={useColorModeValue('gray.200', 'gray.900')}
-          align={'center'}>
+          align={'center'}
+          position={'relative'}>
           <Flex
             flex={{ base: 1, md: 'auto' }}
             ml={{ base: -2 }}
@@ -54,11 +55,12 @@ import {
             />
           </Flex>
           <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
-            
+            <a href="/">
             <Image src={'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686049839/thumbnail_stiulq.png'} 
                   alt="Verifi Logo" 
                   maxWidth={100}
                   />
+            </a>
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
               <DesktopNav />
             </Flex>
