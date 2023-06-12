@@ -293,7 +293,7 @@ import {
     // },
     {
       label: 'Blog',
-      href: '',
+      href: 'blog',
     },
     
   ];
