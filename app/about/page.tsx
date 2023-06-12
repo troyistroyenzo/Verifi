@@ -70,9 +70,9 @@ import {
               lineHeight={1.85}
               color={'black'}
               fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
-                "While buying a cup of coffee, I received a paper receipt from the cashier. In that moment, a simple thought crossed my mind: "Why not use a QR code instead, eliminating the need for paper?" However, I quickly realized that some companies already employ this method. Then, a more profound idea struck me: "What if these receipts could be stored on a blockchain, allowing customers to truly 'own' their receipts?" Moreover, what if businesses could issue these immutable receipts and have ownership rights as well? These seemingly simple problems sparked my imagination and led me to conceptualize a solution: a platform where users and businesses can leverage blockchain technology to create an ecosystem that streamlines digital assets." - Troy
-               </Text>
-               <Text
+              "While buying a cup of coffee, I received a paper receipt from the cashier. In that moment, a simple thought crossed my mind: "Why not use a QR code instead, eliminating the need for paper?" However, I quickly realized that some companies already employ this method. Then, a more profound idea struck me: "What if these receipts could be stored on a blockchain, allowing customers to truly 'own' their receipts?" Moreover, what if businesses could issue these immutable receipts and have ownership rights as well? These seemingly simple problems sparked my imagination and led me to conceptualize a solution: a platform where users and businesses can leverage blockchain technology to create an ecosystem that streamlines digital assets." 
+              </Text>
+              <Text
               fontWeight={600}
               lineHeight={1.2}
               color={'#7d7d7d'}
@@ -86,7 +86,7 @@ import {
               color={'black'}
               fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                 "It's personal to me. I am driven by the desire to make a positive impact on individuals, businesses, and the world as a whole. I firmly believe that by harnessing decentralized technologies,  - Troy I can take a significant stride towards achieving this goal. My vision is centered around empowering businesses and their employees to operate with greater efficiency and speed, ultimately enabling them to accomplish their tasks more effectively."  - Troy
-               </Text>
+            </Text>
             <Text
               paddingTop={90}
               fontWeight={700}
