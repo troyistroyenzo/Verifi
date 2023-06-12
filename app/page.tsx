@@ -10,10 +10,14 @@ import Whitepaper from '../components/Whitepaper';
 import Product from '../components/Product';
 import Architecture from '../components/Architecture';
 import { Fade } from "@chakra-ui/react";
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <>
+    <Head>
+        <title>VeriFi — Home  </title>
+      </Head>
       <Fade in transition={{ enter: { duration: 5 }}}> 
         <HeroSection /> 
 

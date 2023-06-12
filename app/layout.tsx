@@ -22,6 +22,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta charSet="utf-8" />
+        <title>VeriFi</title>
+      </head>
       <body className={inter.className}>
         <ChakraProvider>
             <Navbar/>
