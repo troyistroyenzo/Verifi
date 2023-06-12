@@ -37,7 +37,6 @@ import {
           <Box
             color="black"
             borderRadius="lg"
-            minH={'150vh'}
             m={{ sm: 4, md: 16, lg: 10 }}
             p={{ sm: 5, md: 5, lg: 16 }}>
             <Box p={4}>
@@ -45,7 +44,10 @@ import {
                 <WrapItem>
                   <Box>
                     <Heading>Contact</Heading>
-                   
+                    <Text mt={{ sm: 3, md: 3, lg: 5 }}>
+                      Woah! Looks like we have not setup this page to actually receive emails. If you are here, 
+                      you haveve probably met us before. If you are new, you can personally contact me (Troy) through the socials below. 👇
+                    </Text>
                     <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
                       <VStack pl={0} spacing={3} alignItems="center">
                         <Button
