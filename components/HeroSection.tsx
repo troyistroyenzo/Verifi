@@ -38,7 +38,7 @@ import {
           <Stack flex={1} spacing={{ base: 5, md: 10 }}>
             <Heading
               letterSpacing={-2.0}
-              fontWeight={700}
+              fontWeight={800}
               fontFamily={'inter'}
               fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}>
               <Text
@@ -64,7 +64,7 @@ import {
               </Text>
             </Heading>
             <Text fontWeight={700}>
-            The software solution to providing secure and reliable digital assets verification solution for businesses. 
+            The solution to providing secure and reliable digital assets verification solution for businesses. 
             </Text>
             <Stack
               spacing={{ base: 4, sm: 6 }}
@@ -77,7 +77,7 @@ import {
                   colorScheme={'purple'}
                   bg={'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 100%)'}
                   _hover={{ bg: 'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 50%)' }}>
-                  Start Now 👌
+                  Coming Soon ✨
                 </Button>
               </a>
               <a href="https://verifi-dashboard.vercel.app/">

@@ -36,8 +36,6 @@ import {
           minH={'60px'}
           py={{ base: 50 }}
           px={{ base: 20, md: 16}}
-          borderBottom={1}
-          borderStyle={'solid'}
           borderColor={useColorModeValue('gray.200', 'gray.900')}
           align={'center'}
           position={'relative'}>
@@ -65,32 +63,33 @@ import {
               <DesktopNav />
             </Flex>
           </Flex>
-  
           <Stack
             flex={{ base: 1, md: 0 }}
             justify={'flex-end'}
             direction={'row'}
             spacing={6}>
-            <Button
+            {/* <Button
               as={'a'}
               fontSize={'sm'}
               fontWeight={400}
               variant={'link'}
               href={'#'}>
               Sign In
-            </Button>
+            </Button> */}
             <Button
               as={'a'}
               display={{ base: 'none', md: 'inline-flex' }}
               fontSize={'sm'}
               fontWeight={600}
               color={'white'}
-              bg={'pink.400'}
-              href={'#'}
+              backgroundImage= 'linear-gradient(78deg, rgb(56,128,255) 0%, rgb(25,234,201) 100%)'
+              href={'contact'}
               _hover={{
-                bg: 'pink.300',
+                transition: '5.3s ease',
+                transitionDelay: '10.3s',
+                backgroundImage: 'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 100%)'
               }}>
-              Sign Up
+              Contact Us
             </Button>
           </Stack>
         </Flex>
@@ -263,34 +262,38 @@ import {
       children: [
         {
           label: 'Explore Design Work',
-          subLabel: 'Trending Design to inspire you',
+          subLabel: 'Coming Soon ✨',
           href: '#',
         },
         {
           label: 'New & Noteworthy',
-          subLabel: 'Up-and-coming Designers',
+          subLabel: 'Coming Soon ✨',
           href: '#',
         },
       ],
     },
+    // {
+    //   label: 'Solutions',
+    //   children: [
+    //     {
+    //       label: 'Job Board',
+    //       subLabel: 'Find your dream design job',
+    //       href: '#',
+    //     },
+    //     {
+    //       label: 'Freelance Projects',
+    //       subLabel: 'An exclusive list for contract work',
+    //       href: '#',
+    //     },
+    //   ],
+    // },
+    // {
+    //   label: 'Enterprise',
+    //   href: '#',
+    // },
     {
-      label: 'Solutions',
-      children: [
-        {
-          label: 'Job Board',
-          subLabel: 'Find your dream design job',
-          href: '#',
-        },
-        {
-          label: 'Freelance Projects',
-          subLabel: 'An exclusive list for contract work',
-          href: '#',
-        },
-      ],
-    },
-    {
-      label: 'Enterprise',
-      href: '#',
+      label: 'Blog',
+      href: '',
     },
     
   ];

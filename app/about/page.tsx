@@ -13,14 +13,18 @@ import {
     SimpleGrid,
     Avatar,
   } from '@chakra-ui/react';
+
+  import "@fontsource/inter"
   
   export default function WithBackgroundImage() {
     return (
       <Flex
         w={'full'}
-        minH={'120vh'}
-        p={90}>
+        fontFamily={'Inter'}
+        minH={'150vh'}
+        p={35}>
         <VStack
+          p={10}
           w={'full'}
           justify={'center'}
           px={useBreakpointValue({ base: 4, md: 8 })}>
@@ -35,8 +39,8 @@ import {
             </Text>
             <Stack direction={'row'}>
             <Text
-              fontWeight={700}
-              lineHeight={1.2}
+              fontWeight={600}
+              
               color={'#7d7d7d'}
               letterSpacing={-2.25}
               fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
@@ -45,13 +49,54 @@ import {
             </Stack>
             <Text
               fontWeight={400}
-              lineHeight={1.2}
+              lineHeight={1.85}
               color={'black'}
               fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
-              Does your company value time, resources and money? We do too. That&apos;s why we&apos;re building VeriFi, to help businesses save time, resources and money. 
+              Does your company value time, resources and money? 
+              We do too. That&apos;s why we&apos;re building VeriFi, to help businesses save time, resources and money. 
               With our platform, 
               businesses can supercharge their day-to-day operations by leveraging the power of blockchain technology.
             </Text>
+            <Text
+              fontWeight={600}
+              lineHeight={1.2}
+              color={'#7d7d7d'}
+              letterSpacing={-2.25}
+              fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
+              The Story
+            </Text>
+            <Text
+              fontWeight={400}
+              lineHeight={1.85}
+              color={'black'}
+              fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
+                "While buying a cup of coffee, I received a paper receipt from the cashier. 
+                In that moment, a simple thought crossed my mind: "Why not use a QR code instead, eliminating the need for paper?" 
+                However, I quickly realized that some companies already employ this method. 
+                Then, a more profound idea struck me: "What if these receipts could be stored on a blockchain, allowing customers to truly 'own' their receipts?" 
+                Moreover, what if businesses could issue these immutable receipts and have ownership rights as well? 
+                These seemingly simple problems sparked my imagination and led me to conceptualize a solution: 
+                a platform where users and businesses can leverage blockchain technology to create an ecosystem that streamlines digital assets." - Troy
+               </Text>
+               <Text
+              fontWeight={600}
+              lineHeight={1.2}
+              color={'#7d7d7d'}
+              letterSpacing={-2.25}
+              fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
+              The "Why"
+            </Text>
+            <Text
+              fontWeight={400}
+              lineHeight={1.85}
+              color={'black'}
+              fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
+                "It's personal to me. I am driven by the desire to make a positive impact on individuals, businesses, and the world as a whole. 
+                I firmly believe that by harnessing decentralized technologies,  - Troy
+                I can take a significant stride towards achieving this goal. 
+                My vision is centered around empowering businesses and their employees to operate with greater efficiency and speed, 
+                ultimately enabling them to accomplish their tasks more effectively."  - Troy
+               </Text>
             <Text
               paddingTop={90}
               fontWeight={700}

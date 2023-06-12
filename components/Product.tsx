@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 import "@fontsource/inter"
-import "@fontsource/heebo"
+
 import {
   Stack,
   Container,
@@ -28,9 +28,10 @@ export default function StatsGridWithImage() {
           h={'full'}
         />
       </Flex>
-      <Container maxW={'5xl'} zIndex={10} position={'relative'}>
+        <Container maxW={'5xl'} zIndex={10} position={'relative'}>
         <Stack direction={{ base: 'column', lg: 'column' }}>
           <Stack
+            m={25}
             flex={1}
             justify={{ lg: 'center' }}
             py={{ base: 4, md: 15, xl: 35 }}>
@@ -50,15 +51,16 @@ export default function StatsGridWithImage() {
               </Text> */}
             </Box>
 
-            <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
+            <SimpleGrid columns={{ base: 1, md: 2 }} spacing={5} textAlign={'center'}>
               {stats.map((stat) => (
                 <Box key={stat.title} 
                     fontWeight={700}
                     letterSpacing={-1.0} 
                     borderRadius='10' 
                     borderWidth="1px" 
+                    alignItems={'center'}
                     p="4"
-                    w={'75%'} 
+                    w={'89%'} 
                     boxShadow="lg" 
                     m="4">
                   <Text
