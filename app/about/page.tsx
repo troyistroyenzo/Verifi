@@ -68,7 +68,7 @@ import {
               fontWeight={400}
               lineHeight={1.85}
               color={'black'}
-              fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
+              fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
               "While buying a cup of coffee, I had a thought: Why not use QR codes instead of paper receipts? It turns out some companies already do that. But then a bigger idea hit me: What if these receipts could be stored on a blockchain, giving customers true ownership? And what if businesses could issue these receipts and have ownership rights too? These simple problems sparked my imagination, leading me to envision a platform where users and businesses can utilize blockchain technology to streamline digital assets."
             </Text>
               <Text
@@ -83,7 +83,7 @@ import {
               fontWeight={400}
               lineHeight={1.85}
               color={'black'}
-              fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
+              fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
                 "It's personal to me. I want to help people, businesses, and the world. By utilizing decentralized technologies, I believe I can empower businesses and their employees to work more efficiently and effectively." - Troy
             </Text>
 
