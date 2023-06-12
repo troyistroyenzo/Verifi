@@ -64,25 +64,13 @@ import {
               fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
               The Story
             </Text>
-            <Text
+            {/* <Text
               fontWeight={400}
               lineHeight={1.85}
               color={'black'}
               fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
               "While buying a cup of coffee, I received a paper receipt from the cashier. In that moment, a simple thought crossed my mind: "Why not use a QR code instead, eliminating the need for paper?" However, I quickly realized that some companies already employ this method. Then, a more profound idea struck me: "What if these receipts could be stored on a blockchain, allowing customers to truly 'own' their receipts?" Moreover, what if businesses could issue these immutable receipts and have ownership rights as well? These seemingly simple problems sparked my imagination and led me to conceptualize a solution: a platform where users and businesses can leverage blockchain technology to create an ecosystem that streamlines digital assets." 
-            </Text>
-
-            
-            
-           
-
-
-
-
-
-
-
-
+            </Text> */}
               {/* <Text
               fontWeight={600}
               lineHeight={1.2}
@@ -110,7 +98,6 @@ import {
               fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
               Leadership
             </Text>
-           
           </Stack>
           <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} py={100}>
                 <Box
