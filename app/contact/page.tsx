@@ -88,7 +88,7 @@ import {
                         </Button>
                       </VStack>
                     </Box>
-                    {/* <HStack
+                    <HStack
                       mt={{ lg: 10, md: 10 }}
                       spacing={5}
                       px={5}
@@ -117,10 +117,10 @@ import {
                         _hover={{ bg: '#0D74FF' }}
                         icon={<BsDiscord size="28px" />}
                       />
-                    </HStack> */}
+                    </HStack>
                   </Box>
                 </WrapItem>
-                {/* <WrapItem>
+                <WrapItem>
                   <Box bg="white" borderRadius="lg">
                     <Box m={8} color="#0B0E3F">
                       <VStack spacing={5}>
@@ -166,7 +166,7 @@ import {
                       </VStack>
                     </Box>
                   </Box>
-                </WrapItem> */}
+                </WrapItem>
               </Wrap>
             </Box>
           </Box>
