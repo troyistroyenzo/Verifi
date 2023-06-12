@@ -56,8 +56,7 @@ import {
               With our platform, 
               businesses can supercharge their day-to-day operations by leveraging the power of blockchain technology.
             </Text>
-            
-            <Stack direction={'row'}>
+
             <Text
               fontWeight={600}
               color={'#7d7d7d'}
@@ -65,16 +64,17 @@ import {
               fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
               The Story
             </Text>
-            </Stack>
             <Text
               fontWeight={400}
               lineHeight={1.85}
               color={'black'}
               fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
               "While buying a cup of coffee, I received a paper receipt from the cashier. In that moment, a simple thought crossed my mind: "Why not use a QR code instead, eliminating the need for paper?" However, I quickly realized that some companies already employ this method. Then, a more profound idea struck me: "What if these receipts could be stored on a blockchain, allowing customers to truly 'own' their receipts?" Moreover, what if businesses could issue these immutable receipts and have ownership rights as well? These seemingly simple problems sparked my imagination and led me to conceptualize a solution: a platform where users and businesses can leverage blockchain technology to create an ecosystem that streamlines digital assets." 
-              
             </Text>
 
+            
+            
+           
 
 
 
