@@ -57,7 +57,7 @@ import {
               With our platform, 
               businesses can supercharge their day-to-day operations by leveraging the power of blockchain technology.
             </Text>
-            {/* <Text
+            <Text
               fontWeight={600}
               lineHeight={1.2}
               color={'#7d7d7d'}
@@ -96,7 +96,7 @@ import {
                 I can take a significant stride towards achieving this goal. 
                 My vision is centered around empowering businesses and their employees to operate with greater efficiency and speed, 
                 ultimately enabling them to accomplish their tasks more effectively."  - Troy
-               </Text> */}
+               </Text>
             <Text
               paddingTop={90}
               fontWeight={700}
