@@ -56,12 +56,14 @@ import {
               With our platform, 
               businesses can supercharge their day-to-day operations by leveraging the power of blockchain technology.
             </Text>
+            
+            <Stack direction={'row'}>
             <Text
               fontWeight={600}
               color={'#7d7d7d'}
               letterSpacing={-2.25}
               fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
-              We want to make it easier for businesses to deal with their transactions
+              The Story
             </Text>
             </Stack>
             <Text
@@ -81,14 +83,24 @@ import {
 
 
 
-           
-            {/* <Text
+              {/* <Text
+              fontWeight={600}
+              lineHeight={1.2}
+              color={'#7d7d7d'}
+              letterSpacing={-2.25}
+              fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
+              The "Why"
+            </Text>
+            <Text
               fontWeight={400}
               lineHeight={1.85}
               color={'black'}
               fontSize={useBreakpointValue({ base: 'sm', md: 'md' })}>
                 "It's personal to me. I am driven by the desire to make a positive impact on individuals, businesses, and the world as a whole. I firmly believe that by harnessing decentralized technologies,  - Troy I can take a significant stride towards achieving this goal. My vision is centered around empowering businesses and their employees to operate with greater efficiency and speed, ultimately enabling them to accomplish their tasks more effectively."  - Troy
-            </Text>
+            </Text> */}
+
+
+
             <Text
               paddingTop={90}
               fontWeight={700}
@@ -97,7 +109,7 @@ import {
               letterSpacing={-2.25}
               fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
               Leadership
-            </Text> */}
+            </Text>
            
           </Stack>
           <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} py={100}>
