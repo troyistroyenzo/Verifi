@@ -84,11 +84,8 @@ import {
               lineHeight={1.85}
               color={'black'}
               fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
-                It's personal to me. I want to help people, businesses, and the world. By utilizing decentralized technologies, I believe I can empower businesses and their employees to work more efficiently and effectively. 
+                It is personal to me. I want to help people, businesses, and the world. By utilizing decentralized technologies, I believe I can empower businesses and their employees to work more efficiently and effectively. 
             </Text>
-
-
-
             <Text
               paddingTop={90}
               fontWeight={700}
