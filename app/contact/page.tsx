@@ -37,6 +37,7 @@ import {
           <Box
             color="black"
             borderRadius="lg"
+            minH={'150vh'}
             m={{ sm: 4, md: 16, lg: 10 }}
             p={{ sm: 5, md: 5, lg: 16 }}>
             <Box p={4}>
