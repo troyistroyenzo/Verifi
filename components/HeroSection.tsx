@@ -1,5 +1,5 @@
 import Spline from '@splinetool/react-spline';
-import styled from 'styled-components';
+
 
 
 
