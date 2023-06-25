@@ -1,4 +1,5 @@
-
+import Spline from '@splinetool/react-spline';
+import styled from 'styled-components';
 
 
 
@@ -17,6 +18,7 @@ import {
     createIcon,
     IconProps,
     useColorModeValue,
+    Wrap,
   } from '@chakra-ui/react';
 
   import "@fontsource/inter"
@@ -69,7 +71,7 @@ import {
             <Stack
               spacing={{ base: 4, sm: 6 }}
               direction={{ base: 'column', sm: 'row' }}>
-              <a href="https://verifi-dashboard.vercel.app/">
+              <a href="https://verifi-mvp.vercel.app/">
                 <Button
                   size={'lg'}
                   fontWeight={650}
@@ -77,10 +79,10 @@ import {
                   colorScheme={'purple'}
                   bg={'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 100%)'}
                   _hover={{ bg: 'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 50%)' }}>
-                  Coming Soon ✨
+                  Demo (MVP) ✨
                 </Button>
               </a>
-              <a href="https://verifi-dashboard.vercel.app/">
+              <a href="">
               <Button
                 size={'lg'}
                 fontWeight={650}
@@ -101,7 +103,7 @@ import {
             position={'relative'}
             maxW={'100%'}>
             
-            <Image
+            {/* <Image
                 top={90}
                 margin={10}
                 alt={'Hero Image'}
@@ -109,15 +111,29 @@ import {
                 maxWidth={'100%'}
                 src={'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686049883/VeriFi_dtnzcz.png'}
                 contentEditable={false}
-              />
+              /> */}
+              
+             
+                <Spline scene="https://prod.spline.design/x92-lH3WVkQ1V2Bd/scene.splinecode"/>
+             
+              
+
+              
+
           </Flex>
         </Stack>
+
+       
       </Container>
    
       
     );
   }
   
+
+
+
+
   const PlayIcon = createIcon({
     displayName: 'PlayIcon',
     viewBox: '0 0 58 58',
