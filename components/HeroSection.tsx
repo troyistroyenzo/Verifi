@@ -1,5 +1,6 @@
-import Spline from '@splinetool/react-spline';
+
 import React, { useState, useEffect } from "react";
+import Spline from '@splinetool/react-spline';
 
 import {
     Container,
@@ -25,8 +26,7 @@ import {
   
   export default function HeroSection() {
     
-    
-
+  
     return (
       <Container maxW={'7xl'}>
         <Stack

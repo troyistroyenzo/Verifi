@@ -1,3 +1,5 @@
+import Spline from '@splinetool/react-spline';
+
 import {
     Stack,
     Flex,
@@ -21,42 +23,51 @@ import {
           w={'full'}
           justify={'center'}
           px={useBreakpointValue({ base: 4, md: 8 })}>
-          <Stack maxW={'4xl'} align={'flex-start'} spacing={6}>
-            <Text
-              backgroundImage= 'linear-gradient(78deg, rgb(56,128,255) 0%, rgb(25,234,141) 100%)'
+          <Stack maxW={'4xl'} align={'flex-start'} spacing={6} >
+          <Spline scene="https://prod.spline.design/LkpzLXd2fHTVJN-Y/scene.splinecode" />
+          <Text
+              backgroundImage= 'linear-gradient(78deg, rgb(59,178,200) 0%, rgb(106,107,206) 100%)'
               backgroundClip= 'text'
               fontWeight={700}
-              lineHeight={1.2}
+              textAlign={'center'}
               fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
-              Our mission is to secure and onboard businesses through Web3.
+              Supercharge your business with VeriFi
             </Text>
-            <br/>
+            <Text
+              fontWeight={400}
+              textAlign={'center'}
+              fontSize={useBreakpointValue({ base: 'xl', md: '2xl' })}>
+              Transactions get complicated, it
+                doesn’t have to be that way
+                VeriFi brings a solution wherein businesses can streamline
+                their financial operations, such as invoice processing and
+                payment, while ensuring the accuracy and security of their
+                records. With VeriFi you no longer have to deal with the
+                accuracy of your records, we do that for you.
+            </Text>
+            <Spline scene="https://prod.spline.design/gnyqc3ySDrrHrQWs/scene.splinecode" />
             <Text
               backgroundImage= 'linear-gradient(78deg, rgb(59,178,200) 0%, rgb(106,107,206) 100%)'
               backgroundClip= 'text'
               fontWeight={700}
-              lineHeight={1.2}
-              textAlign={'right'}
               fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
-              Our vision is to see 1 million businesses adopt blockhain technology
+              Cross-industry metrics
             </Text>
+            <Text
+              fontWeight={400}
+              textAlign={'center'}
+              fontSize={useBreakpointValue({ base: 'xl', md: '2xl' })}>
+              A platform where businesses share transactional and consumer
+            purchasing habits across each other helps build better experiences
+            for consumers while providing businesses better insights into what
+            they need, so they can personalize and improve on what they offer.
+            </Text>
+
             <Stack direction={'column'}>
             </Stack>
           </Stack>
-          {/* <Button
-                bg='linear-gradient(78deg, rgb(56,128,255) 0%, rgb(25,234,141) 100%)'
-                rounded={'full'}
-                color={'white'}
-                _hover={{ bg: 'linear-gradient(78deg, rgb(56,128,255) 10%, rgb(25,234,141) 60%)' }}>
-                Show me more
-              </Button>
-              <Button
-                bg={'whiteAlpha.300'}
-                rounded={'full'}
-                color={'white'}
-                _hover={{ bg: 'whiteAlpha.500' }}>
-                Show me more
-              </Button> */}
+          
+  
         </VStack>
       </Flex>
     );
