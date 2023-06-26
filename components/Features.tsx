@@ -1,5 +1,7 @@
 
 import { motion } from "framer-motion";
+import Spline from '@splinetool/react-spline';
+
 import {
     Box,
     Button,
@@ -68,18 +70,20 @@ import { Fa500Px } from 'react-icons/fa';
         <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'} >
         </Stack>
         <Container maxW={'1xl'} mt={5}>
-          <Flex flexWrap="wrap" gridGap={50} justify="center">
+          <Flex flexWrap="wrap" gridGap={25} justify="center">
             <Card
               heading={'Decentralized Protocol'}  
-              icon={<Icon as={Image} src="https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124341/2_ivfsda.png" w={'75%'} h={'full'}/>}
+              icon={<Spline scene="https://prod.spline.design/G2p7LTOegYDF0bi6/scene.splinecode" />}
               description={
                 'Asset management allowing businesses to mint, manage, and track digital assets on a decentralized platform.'
               }
               href={'#'}
             />
+            
+  
             <Card
               heading={'Highly Scalable'}
-              icon={<Icon as={Image} src="https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124340/3_co6vpe.png" w={'75%'} h={'full'}/>}
+              icon={<Spline scene="https://prod.spline.design/qvwUpqGxXqM41Yj1/scene.splinecode" />}
               description={
                 'Scalable platform with an immutable inventory tracking system, customizable invoicing, efficient management and seamless integration of digital assets.'
               }
@@ -87,7 +91,7 @@ import { Fa500Px } from 'react-icons/fa';
             />
             <Card
               heading={'More secure, than ever'}
-              icon={<Icon as={Image} src="https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124340/4_ry3m55.png" w={'75%'} h={'full'}/>}
+              icon={ <Spline scene="https://prod.spline.design/Z22J2H1b2099QER8/scene.splinecode" />}
               description={
                 'A tamper-proof system that builds trust and confidence in the ecosystem.'
               }
@@ -95,7 +99,7 @@ import { Fa500Px } from 'react-icons/fa';
             />
             <Card
               heading={'Integrated With IPFS & ZK Proofs'}
-              icon={<Icon as={Image} src="https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124340/5_epvch7.png" w={'75%'} h={'full'}/>}
+              icon={<Spline scene="https://prod.spline.design/TppkptrTktCwTju2/scene.splinecode" />}
               description={
                 'Secure data, prove business logic, and enable self-sovereign data with integrated IPFS and ZK Proofs.'
               }

@@ -1,8 +1,5 @@
 import Spline from '@splinetool/react-spline';
-
-
-
-
+import React, { useState, useEffect } from "react";
 
 import {
     Container,
@@ -24,13 +21,13 @@ import {
   import "@fontsource/inter"
 
 
+
+  
   export default function HeroSection() {
     
-
+    
 
     return (
-      
-        
       <Container maxW={'7xl'}>
         <Stack
           align={'center'}
@@ -114,7 +111,7 @@ import {
               /> */}
               
              
-                <Spline scene="https://prod.spline.design/x92-lH3WVkQ1V2Bd/scene.splinecode"/>
+                <Spline scene="https://prod.spline.design/x92-lH3WVkQ1V2Bd/scene.splinecode" />
              
               
 

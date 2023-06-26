@@ -9,6 +9,7 @@ import Statement from '../components/Statement';
 import Whitepaper from '../components/Whitepaper';
 import Product from '../components/Product';
 import Architecture from '../components/Architecture';
+import Description from '../components/Description';
 import { Fade } from "@chakra-ui/react";
 import Head from 'next/head';
 
@@ -25,6 +26,9 @@ export default function Home() {
      
 
       </Fade>
+
+      <Description/>
+
        <Features />
      
       <br /> 
