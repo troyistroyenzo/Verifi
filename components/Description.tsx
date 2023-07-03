@@ -24,7 +24,7 @@ import {
           justify={'center'}
           px={useBreakpointValue({ base: 4, md: 8 })}>
           <Stack maxW={'4xl'} align={'flex-start'} spacing={6} >
-          <Spline scene="https://prod.spline.design/LkpzLXd2fHTVJN-Y/scene.splinecode" />
+          {/* <Spline scene="https://prod.spline.design/LkpzLXd2fHTVJN-Y/scene.splinecode" /> */}
           <Text
               backgroundImage= 'linear-gradient(78deg, rgb(59,178,200) 0%, rgb(106,107,206) 100%)'
               backgroundClip= 'text'
@@ -45,7 +45,7 @@ import {
                 records. With VeriFi you no longer have to deal with the
                 accuracy of your records, we do that for you.
             </Text>
-            <Spline scene="https://prod.spline.design/gnyqc3ySDrrHrQWs/scene.splinecode" />
+            {/* <Spline scene="https://prod.spline.design/gnyqc3ySDrrHrQWs/scene.splinecode" /> */}
             <Text
               backgroundImage= 'linear-gradient(78deg, rgb(59,178,200) 0%, rgb(106,107,206) 100%)'
               backgroundClip= 'text'

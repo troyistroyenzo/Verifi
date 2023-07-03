@@ -73,7 +73,7 @@ import { Fa500Px } from 'react-icons/fa';
           <Flex flexWrap="wrap" gridGap={25} justify="center">
             <Card
               heading={'Decentralized Protocol'}  
-              icon={<Spline scene="https://prod.spline.design/G2p7LTOegYDF0bi6/scene.splinecode" />}
+              // icon={<Spline scene="https://prod.spline.design/G2p7LTOegYDF0bi6/scene.splinecode" />}
               description={
                 'Asset management allowing businesses to mint, manage, and track digital assets on a decentralized platform.'
               }
@@ -83,7 +83,7 @@ import { Fa500Px } from 'react-icons/fa';
   
             <Card
               heading={'Highly Scalable'}
-              icon={<Spline scene="https://prod.spline.design/qvwUpqGxXqM41Yj1/scene.splinecode" />}
+              // icon={<Spline scene="https://prod.spline.design/qvwUpqGxXqM41Yj1/scene.splinecode" />}
               description={
                 'Scalable platform with an immutable inventory tracking system, customizable invoicing, efficient management and seamless integration of digital assets.'
               }
@@ -91,7 +91,7 @@ import { Fa500Px } from 'react-icons/fa';
             />
             <Card
               heading={'More secure, than ever'}
-              icon={ <Spline scene="https://prod.spline.design/Z22J2H1b2099QER8/scene.splinecode" />}
+              // icon={ <Spline scene="https://prod.spline.design/Z22J2H1b2099QER8/scene.splinecode" />}
               description={
                 'A tamper-proof system that builds trust and confidence in the ecosystem.'
               }
@@ -99,7 +99,7 @@ import { Fa500Px } from 'react-icons/fa';
             />
             <Card
               heading={'Integrated With IPFS & ZK Proofs'}
-              icon={<Spline scene="https://prod.spline.design/TppkptrTktCwTju2/scene.splinecode" />}
+              // icon={<Spline scene="https://prod.spline.design/TppkptrTktCwTju2/scene.splinecode" />}
               description={
                 'Secure data, prove business logic, and enable self-sovereign data with integrated IPFS and ZK Proofs.'
               }
