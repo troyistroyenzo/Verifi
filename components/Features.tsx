@@ -27,11 +27,11 @@ import { Fa500Px } from 'react-icons/fa';
   interface CardProps {
     heading: string;
     description: string;
-    icon: ReactElement;
+    // icon: ReactElement;
     href: string;
   }
   
-  const Card = ({ heading, description, icon, href }: CardProps) => {
+  const Card = ({ heading, description, href }: CardProps) => {
     return (
       <Box
         maxW={{ base: 'full', md: '500px' }}
@@ -48,7 +48,7 @@ import { Fa500Px } from 'react-icons/fa';
             align={'center'}
             justify={'center'}
             color={'white'}>
-            {icon}
+            {/* {icon} */}
           </Flex>
           <Box mt={2}>
             <Heading fontFamily={'inter'} size="lg" padding={2} fontWeight={700} letterSpacing={-1}>{heading}</Heading>
@@ -79,8 +79,6 @@ import { Fa500Px } from 'react-icons/fa';
               }
               href={'#'}
             />
-            
-  
             <Card
               heading={'Highly Scalable'}
               // icon={<Spline scene="https://prod.spline.design/qvwUpqGxXqM41Yj1/scene.splinecode" />}
