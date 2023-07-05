@@ -24,7 +24,9 @@ export default function SimpleCookiePreference() {
             colorScheme="cyan" color={'white'}>
             Whitepaper
           </Button>
+          <a href="https://verifi.gitbook.io/docs/" target='_blank'>
           <Button colorScheme="pink">Docs</Button>
+          </a>
         </Stack>
     </Stack>
   );
