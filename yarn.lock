@@ -931,10 +931,10 @@
   "resolved" "https://registry.npmjs.org/@emotion/memoize/-/memoize-0.7.4.tgz"
   "version" "0.7.4"
 
-"@emotion/react@^11.0.0", "@emotion/react@^11.0.0-rc.0", "@emotion/react@>=10.0.35":
-  "integrity" "sha512-ZSK3ZJsNkwfjT3JpDAWJZlrGD81Z3ytNDsxw1LKq1o+xkmO5pnWfr6gmCC8gHEFf3nSSX/09YrG67jybNPxSUw=="
-  "resolved" "https://registry.npmjs.org/@emotion/react/-/react-11.11.0.tgz"
-  "version" "11.11.0"
+"@emotion/react@^11.0.0", "@emotion/react@^11.0.0-rc.0", "@emotion/react@^11.11.1", "@emotion/react@>=10.0.35":
+  "integrity" "sha512-5mlW1DquU5HaxjLkfkGN1GA/fvVGdyHURRiX/0FHl2cfIfRxSOfmxEH5YS43edp0OldZrZ+dkBKbngxcNCdZvA=="
+  "resolved" "https://registry.npmjs.org/@emotion/react/-/react-11.11.1.tgz"
+  "version" "11.11.1"
   dependencies:
     "@babel/runtime" "^7.18.3"
     "@emotion/babel-plugin" "^11.11.0"
@@ -2256,10 +2256,10 @@
   "resolved" "https://registry.npmjs.org/fraction.js/-/fraction.js-4.2.0.tgz"
   "version" "4.2.0"
 
-"framer-motion@>=4.0.0":
-  "integrity" "sha512-w/SfWEIWJkYSgRHYBmln7EhcNo31ao8Xexol8lGXf1pR/tlnBtf1HcxoUmEiEh6pacB4/geku5ami53AAQWHMQ=="
-  "resolved" "https://registry.npmjs.org/framer-motion/-/framer-motion-10.12.16.tgz"
-  "version" "10.12.16"
+"framer-motion@^10.12.18", "framer-motion@>=4.0.0":
+  "integrity" "sha512-cfhiUpPbj+0eEWKjuD+5cz5cMqH71xOtMxGiS/cSGfHn2OlHIEAqFnFyzEMENw5PxWR9bMVhatzzpD6lexmHZQ=="
+  "resolved" "https://registry.npmjs.org/framer-motion/-/framer-motion-10.12.18.tgz"
+  "version" "10.12.18"
   dependencies:
     "tslib" "^2.4.0"
   optionalDependencies:
