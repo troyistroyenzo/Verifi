@@ -15,7 +15,7 @@ export default function SimpleCookiePreference() {
         direction={{ base: 'column', md: 'row' }}
         justifyContent="space-between">
         <Text fontSize={{ base: 'lg' }} fontWeight={600} textAlign={'left'} maxW={'4xl'}>
-        Centralized Record Keeping Systems are vulnerable and inefficient. VeriFi is the decentralized ecosystem for businesses looking to scale and enter web3
+        Centralized Record Keeping Systems are vulnerable and inefficient. Read more about what we do and how we do it.
         </Text>
       </Stack>
       <Stack direction={{ base: 'column', md: 'row' }} p={5}>
