@@ -8,6 +8,7 @@ import Footer from '@/components/Footer'
 
 import './globals.css'
 import { useRouter } from 'next/router'
+import { Analytics } from '@vercel/analytics/react';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -30,6 +31,7 @@ export default function RootLayout({
         <ChakraProvider>
             <Navbar/>
             {children}
+            <Analytics />
             <Footer/>
         </ChakraProvider></body>
     </html>
