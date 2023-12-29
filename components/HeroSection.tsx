@@ -55,7 +55,7 @@ import {
                   // bg: 'purple.400',
                   zIndex: -1,
                 }}>
-                A Decentralized Ecosystem 
+                A Zero Knowledge Decentralized Ecosystem 
               </Text>
               <br />
               <Text as={'span'} >
