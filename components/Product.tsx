@@ -90,19 +90,19 @@ const StatsText = ({ children }: { children: ReactNode }) => (
 
 const stats = [
   {
-    title: 'Vat-Payment Integration',
+    title: 'Receipt digitization',
     content: (
       <>
-        <StatsText>Automate transactions and ensure compliance</StatsText>
+        <StatsText>Digitize paper receipts</StatsText>
 
       </>
     ),
   },
   {
-    title: 'Trust-based Consensus algorithm',
+    title: 'VAT-Calculated Automation',
     content: (
       <>
-        <StatsText>Ensure secure and accurate digitization of digital assets</StatsText>
+        <StatsText>Automate transactions and ensure compliance</StatsText>
       </>
     ),
   },
@@ -118,23 +118,15 @@ const stats = [
     title: 'Streamlined & Automated Invoice Processing',
     content: (
       <>
-        <StatsText> Faster and more efficient transactions</StatsText> 
+        <StatsText>Faster and more efficient transactions</StatsText> 
       </>
     ),
   },
   {
-    title: 'Anti-fraud measures',
+    title: '2-Factor Authentication',
     content: (
       <>
-        <StatsText>validation and verification to prevent fraudulent transactions</StatsText>
-      </>
-    ),
-  },
-  {
-    title: 'Transparency & Traceability',
-    content: (
-      <>
-        <StatsText>Verified users can view blockchain transactions to ensure transparency</StatsText> 
+        <StatsText>Validation and verification required to access and manage assets</StatsText>
       </>
     ),
   },

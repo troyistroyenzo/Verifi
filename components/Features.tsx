@@ -71,38 +71,39 @@ import { Fa500Px } from 'react-icons/fa';
         </Stack>
         <Container maxW={'1xl'} mt={5}>
           <Flex flexWrap="wrap" gridGap={25} justify="center">
-            <Card
-              heading={'Decentralized Protocol'}  
-              icon={<Image src={'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124340/5_epvch7.png'}/>}
-              description={
-                'Asset management allowing businesses to mint, manage, and track digital assets on a decentralized platform.'
-              }
-              href={'#'}
-            />
-            <Card
-              heading={'Highly Scalable'}
-              icon={<Image src={'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686049883/VeriFi_dtnzcz.png'}/>}
-              description={
-                'Scalable platform with an immutable inventory tracking system, customizable invoicing, efficient management and seamless integration of digital assets.'
-              }
-              href={'#'}
-            />
-            <Card
-              heading={'More secure, than ever'}
-              icon={<Image src={'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124340/3_co6vpe.png'} />}
-              description={
-                'A tamper-proof system that builds trust and confidence in the ecosystem.'
-              }
-              href={'#'}
-            />
-            <Card
-              heading={'Integrated With IPFS & ZK Proofs'}
+          <Card
+              heading={'Zero Knowledge First'}
               icon={<Image src={'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124340/4_ry3m55.png'}/>}
               description={
-                'Secure data, prove business logic, and enable self-sovereign data with integrated IPFS and ZK Proofs.'
+                'We use zero-knowledges proofs to protect your data and manage large amounts of receipts.'
               }
               href={'#'}
             />
+            <Card
+              heading={'Receipts Management'}  
+              icon={<Image src={'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124340/5_epvch7.png'}/>}
+              description={
+                'Easily store, manage and track receipts on our simplified interface'
+              }
+              href={'#'}
+            />
+            <Card
+              heading={'Tamper Proof'}
+              icon={<Image src={'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686049883/VeriFi_dtnzcz.png'}/>}
+              description={
+                'Protocol that ensures no data is modified or deleted.'
+              }
+              href={'#'}
+            />
+            <Card
+              heading={'Interoperable-ready'}
+              icon={<Image src={'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124340/3_co6vpe.png'} />}
+              description={
+                'Highly scalable platform that can be integrated with different APIs and technologies'
+              }
+              href={'#'}
+            />
+            
           </Flex>
         </Container>
       </Box>

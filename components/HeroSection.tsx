@@ -55,15 +55,15 @@ import {
                   // bg: 'purple.400',
                   zIndex: -1,
                 }}>
-                A Zero-Knowledge Decentralized Ecosystem 
+               Manage and Track
               </Text>
               <br />
               <Text as={'span'} >
-              for digital assets
+              Your Receipts
               </Text>
             </Heading>
             <Text fontWeight={700}>
-            The solution to providing secure and reliable digital assets verification solution for businesses. 
+            A digital assets management tool for tracking your receipts.
             </Text>
             <Stack
               spacing={{ base: 4, sm: 6 }}
