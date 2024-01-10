@@ -59,7 +59,7 @@ import {
               </Text>
               <br />
               <Text as={'span'} >
-              for streamlining digital assets
+              for digital assets
               </Text>
             </Heading>
             <Text fontWeight={700}>
@@ -76,10 +76,10 @@ import {
                   colorScheme={'purple'}
                   bg={'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 100%)'}
                   _hover={{ bg: 'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 50%)' }}>
-                  Demo (MVP) ✨
+                  Demo ✨
                 </Button>
               </a>
-              <a href="">
+              <a href="https://yatjbdeqemy.typeform.com/to/kbyiFKsP">
               <Button
                 size={'lg'}
                 fontWeight={650}
@@ -88,7 +88,7 @@ import {
                 bg={'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 100%)'}
                 _hover={{ bg: 'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 50%)' }}>
                 {/* leftIcon={<PlayIcon h={4} w={4} color={'gray.00'} />}  */}
-                How It Works 🤔
+                Waitlist 🫸
               </Button>
               </a>
             </Stack>
