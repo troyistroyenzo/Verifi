@@ -1,0 +1,292 @@
+[33mcommit 468b0bce782eef6cc282d8429b4e993cd9d97954[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Troy <yortozne@gmail.com>
+Date:   Tue Jan 16 15:22:29 2024 +0800
+
+    Merge conflicts
+
+[33mcommit 75d4383c3d3118793c41571a3dce662314a900a0[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Troy Enzo <yortozne@gmail.com>
+Date:   Fri Dec 29 17:59:10 2023 +0800
+
+    Change TItle
+
+[33mcommit c1745c7a3432944830730f3d28403b5e847bbc18[m
+Author: Troy Enzo <you@example.com>
+Date:   Fri Jul 7 13:11:38 2023 +0800
+
+    added vercel analytics
+
+[33mcommit f8bdc2d455ec70758d01e70dd367d4494772ebcf[m
+Author: Troy Enzo <you@example.com>
+Date:   Fri Jul 7 13:01:31 2023 +0800
+
+    removed used case
+
+[33mcommit 3a6c2af1cec2d8fd1147a24fc7129141e5d52416[m
+Author: Troy Enzo <you@example.com>
+Date:   Fri Jul 7 12:55:53 2023 +0800
+
+    installed emotion styled
+
+[33mcommit 2af4e8966f35d90355a30663ab4f041609fca3d7[m
+Merge: 30d651b 0e07faf
+Author: Troy Enzo <you@example.com>
+Date:   Fri Jul 7 12:53:43 2023 +0800
+
+    Merge branch 'main' of https://github.com/troyistroyenzo/Verifi
+
+[33mcommit 30d651b3386c7e10c157d4128189e805434edc54[m
+Author: Troy Enzo <you@example.com>
+Date:   Fri Jul 7 12:53:24 2023 +0800
+
+    installed new dependencies, removed json.lock
+
+[33mcommit 0e07faf7cc2f21cb734630d6e75821fa39069af1[m
+Author: Troy Enzo <yortozne@gmail.com>
+Date:   Fri Jul 7 12:48:27 2023 +0800
+
+    random text in whitepaper, from laptop
+
+[33mcommit 34325e861e88b6e3a6427056ead5e988d354234e[m
+Author: Troy Enzo <you@example.com>
+Date:   Fri Jul 7 12:41:40 2023 +0800
+
+    installed new dependencies
+
+[33mcommit 83742447cd83fb249f6fd1694f5cf3c38776976a[m
+Author: Troy Enzo <you@example.com>
+Date:   Fri Jul 7 12:38:28 2023 +0800
+
+    remove dependencies unused
+
+[33mcommit 1cba4fa889e6317839ef81d34c57ceb274c0aca9[m
+Author: Troy Enzo <you@example.com>
+Date:   Fri Jul 7 12:29:32 2023 +0800
+
+    changed whitepaper text
+
+[33mcommit 870969e14e947b9ad5c53a59028e55571fa9eb74[m
+Author: Troy Enzo <you@example.com>
+Date:   Fri Jul 7 12:22:17 2023 +0800
+
+    added white paper docs, added images to features
+
+[33mcommit 0fd244c7ddf88346cb486a4a72da400d10511fa7[m
+Author: Troy Enzo <you@example.com>
+Date:   Fri Jul 7 11:51:07 2023 +0800
+
+    Revert "added spline in descrption(2)"
+    
+    This reverts commit 415710a052c34e89971ad1c32b86855fc3d4161a.
+
+[33mcommit 36dee140861589758df965ecfb22cf6e0c579521[m
+Author: Troy Enzo <you@example.com>
+Date:   Fri Jul 7 11:48:16 2023 +0800
+
+    back here
+
+[33mcommit 8341450982ae5a337a51b9fde49bc49624e8c47c[m
+Author: Troy Enzo <yortozne@gmail.com>
+Date:   Wed Jul 5 18:16:00 2023 +0800
+
+    added whitepaper link
+
+[33mcommit 5c299492165909aff7c89fcae1cdecb3e66afa3d[m
+Author: Troy Enzo <yortozne@gmail.com>
+Date:   Wed Jul 5 16:53:35 2023 +0800
+
+    Revert "inserted image icon in features component"
+    
+    This reverts commit 0b9cab4cb64a8221400c5d7d85a66ab48c56ca17.
+
+[33mcommit 4cff18c70735953fffaf9ee69c116d7cd07b1bb5[m
+Author: Troy Enzo <yortozne@gmail.com>
+Date:   Wed Jul 5 16:48:55 2023 +0800
+
+    nothing new
+
+[33mcommit 3ef5af8aceeafc35e99c8ca4cec35510ac271ad1[m
+Author: Troy Enzo <yortozne@gmail.com>
+Date:   Wed Jul 5 16:02:07 2023 +0800
+
+    added vercel analytics
+
+[33mcommit 0b9cab4cb64a8221400c5d7d85a66ab48c56ca17[m
+Author: Troy Enzo <yortozne@gmail.com>
+Date:   Tue Jul 4 15:08:14 2023 +0800
+
+    inserted image icon in features component
+
+[33mcommit 5e0b264cb5d9e5dd24c21c650ca2ed315b013adc[m
+Author: Troy Enzo <yortozne@gmail.com>
+Date:   Tue Jul 4 14:33:35 2023 +0800
+
+    removed spline instances in features
+
+[33mcommit 2557d58e28fa2c960727e28596dd95e600617caf[m
+Author: Troy Enzo <yortozne@gmail.com>
+Date:   Mon Jul 3 18:53:10 2023 +0800
+
+    removed spline appearances
+
+[33mcommit 415710a052c34e89971ad1c32b86855fc3d4161a[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 26 16:46:03 2023 +0800
+
+    added spline in descrption(2)
+
+[33mcommit cecbf557775efd58614edf41890a3adb86b34f8a[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 26 16:43:59 2023 +0800
+
+    added spline in descrption
+
+[33mcommit 3ca7329c3115e6a2e991ed90af7c99da3503e352[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 26 15:51:57 2023 +0800
+
+    added spline in features
+
+[33mcommit 80ab0a140732df064d75a36575c24c7143df5c72[m
+Author: Troy Enzo <you@example.com>
+Date:   Sun Jun 25 14:57:09 2023 +0800
+
+    added spline dependency and updated json
+
+[33mcommit c62b46ad00b35c49f4bf2bedde0633632c323b6b[m
+Author: Troy Enzo <you@example.com>
+Date:   Sun Jun 25 14:52:46 2023 +0800
+
+    added spline dependency
+
+[33mcommit 27b8087a29e465d99ccae4a42df2514d037a178d[m
+Author: Troy Enzo <you@example.com>
+Date:   Sun Jun 25 14:48:04 2023 +0800
+
+    added 3D hero
+
+[33mcommit f453f5e4e2d31d158ee6c7d69f354e4342158f90[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 12 18:58:55 2023 +0800
+
+    added title and fixed about fonts
+
+[33mcommit 34ae651269b003ac95d2df93982c3924519d194a[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 12 16:15:06 2023 +0800
+
+    added back contact page content
+
+[33mcommit 6bf8b8bce8c9a15f4cc7cfbc1a65664268e05472[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 12 16:13:48 2023 +0800
+
+    removed apostraphe
+
+[33mcommit 6b33fc22f35f938b6a48dc59a34de9b68abee819[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 12 16:12:07 2023 +0800
+
+    removed quotations
+
+[33mcommit 0601a82db8dc66eda1792c5c74e24b33b38cc7ca[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 12 16:10:06 2023 +0800
+
+    adjust breakpoint values
+
+[33mcommit bb9c6d6c00a679e4df75fa0412fa8d0eb10b3281[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 12 16:09:06 2023 +0800
+
+    adjust about content (5)
+
+[33mcommit c3a692b28172317880c33c9a1dac2950c3a8770d[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 12 16:06:13 2023 +0800
+
+    adjust about (4)
+
+[33mcommit 8c7fb1d8e3e7e521840c19c60f4f5e13e183e9a9[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 12 16:04:53 2023 +0800
+
+    adjust about (3)
+
+[33mcommit 07100d926993774b3e95c46cfaac55acdbb97e2f[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 12 16:03:32 2023 +0800
+
+    adjust about 2
+
+[33mcommit 1ea429d9ee8a724189c9f5843e066c000a67bc64[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 12 16:02:02 2023 +0800
+
+    adjust about (1)
+
+[33mcommit 1dfc9fe373e89e4b1314dcc191c71b0a01413722[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 12 16:00:32 2023 +0800
+
+    adjust about
+
+[33mcommit 422884dfed4fe17f7c4019f240ec0c74ec3af2b7[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 12 15:58:42 2023 +0800
+
+    added content back to abiout w adjustment and fixed code
+
+[33mcommit 9d0729e07b9a8c86eff8ef43ef97a35b9f8852ff[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 12 15:57:33 2023 +0800
+
+    added content back to abiout w adjustment
+
+[33mcommit 41a3c12dd8efa3fc42fb11e6f0817305dfeee72a[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 12 15:56:44 2023 +0800
+
+    added content back to about
+
+[33mcommit 43cbd63791c0aa30fefd2a7efec0f13452c4df3c[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 12 15:54:30 2023 +0800
+
+    removed blob
+
+[33mcommit 7306331fa136d35f172751b7199118f494fadb51[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 12 15:53:24 2023 +0800
+
+    fixed blog
+
+[33mcommit 65ee6b0880f898420cf9b05b962887f0c758164c[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 12 15:46:53 2023 +0800
+
+    remove header
+
+[33mcommit cff88b51696986e11d51f6e4d4994e4f6b73a9fd[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 12 15:46:02 2023 +0800
+
+    adjusted text in contact
+
+[33mcommit f6c06238eb1fbf89d69963c28397ea8a7b918103[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 12 15:41:37 2023 +0800
+
+    added back form content
+
+[33mcommit 4ed31faf85aac8df4d7a7c8b5d2aa9f96f00958c[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 12 15:40:04 2023 +0800
+
+    removed content in about
+
+[33mcommit 974ea4016d58b38c9fa9484bb6b07b58599b312b[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 12 15:33:23 2023 +0800
+
+    adjusted product features, changed styling footer, changed about content, added contact 
