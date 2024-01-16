@@ -28,7 +28,7 @@ import {
               fontWeight={700}
               lineHeight={1.2}
               fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
-              Our mission is to secure and onboard businesses through Web3.
+              Our mission is to push for decentralized & privacy-preserving technology.
             </Text>
             <br/>
             <Text
@@ -38,7 +38,7 @@ import {
               lineHeight={1.2}
               textAlign={'right'}
               fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
-              Our vision is to see 1 million businesses adopt blockhain technology
+              Our vision is to see a trustless ecosystem.
             </Text>
             <Stack direction={'column'}>
             </Stack>

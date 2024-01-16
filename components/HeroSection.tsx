@@ -55,15 +55,15 @@ import {
                   // bg: 'purple.400',
                   zIndex: -1,
                 }}>
-                A Zero Knowledge Decentralized Ecosystem 
+               Manage and Track
               </Text>
               <br />
               <Text as={'span'} >
-              for streamlining digital assets
+              Your Receipts
               </Text>
             </Heading>
             <Text fontWeight={700}>
-            The solution to providing secure and reliable digital assets verification solution for businesses. 
+            A digital assets management tool for tracking your receipts.
             </Text>
             <Stack
               spacing={{ base: 4, sm: 6 }}
@@ -76,10 +76,10 @@ import {
                   colorScheme={'purple'}
                   bg={'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 100%)'}
                   _hover={{ bg: 'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 50%)' }}>
-                  Demo (MVP) ✨
+                  Demo ✨
                 </Button>
               </a>
-              <a href="">
+              <a href="https://yatjbdeqemy.typeform.com/to/kbyiFKsP">
               <Button
                 size={'lg'}
                 fontWeight={650}
@@ -88,7 +88,7 @@ import {
                 bg={'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 100%)'}
                 _hover={{ bg: 'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 50%)' }}>
                 {/* leftIcon={<PlayIcon h={4} w={4} color={'gray.00'} />}  */}
-                How It Works 🤔
+                Waitlist 🫸
               </Button>
               </a>
             </Stack>
