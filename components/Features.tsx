@@ -68,42 +68,52 @@ import { Fa500Px } from 'react-icons/fa';
     return (
       <Box p={25}>
         <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'} >
+        <Heading
+                mb={5}
+                fontSize={{ base: '3xl', md: '5xl' }}
+                textAlign={'center'}
+                backgroundImage= 'linear-gradient(78deg, rgb(59,178,200) 0%, rgb(106,107,206) 100%)'
+                backgroundClip= 'text'
+                letterSpacing={-2.25}
+                fontFamily={'inter'}>
+                Our Main Features
+              </Heading>
         </Stack>
+        
         <Container maxW={'1xl'} mt={5}>
           <Flex flexWrap="wrap" gridGap={25} justify="center">
-          <Card
-              heading={'Zero Knowledge First'}
-              icon={<Image src={'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124340/4_ry3m55.png'}/>}
-              description={
-                'We use zero-knowledges proofs to protect your data and manage large amounts of receipts.'
-              }
-              href={'#'}
-            />
             <Card
-              heading={'Receipts Management'}  
+              heading={'Decentralized Protocol'}  
               icon={<Image src={'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124340/5_epvch7.png'}/>}
               description={
-                'Easily store, manage and track receipts on our simplified interface'
+                'Asset management allowing businesses to mint, manage, and track digital assets on a decentralized platform.'
               }
               href={'#'}
             />
             <Card
-              heading={'Tamper Proof'}
+              heading={'Highly Scalable'}
               icon={<Image src={'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686049883/VeriFi_dtnzcz.png'}/>}
               description={
-                'Protocol that ensures no data is modified or deleted.'
+                'Scalable platform with an immutable inventory tracking system, customizable invoicing, efficient management and seamless integration of digital assets.'
               }
               href={'#'}
             />
             <Card
-              heading={'Interoperable-ready'}
+              heading={'More secure, than ever'}
               icon={<Image src={'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124340/3_co6vpe.png'} />}
               description={
-                'Highly scalable platform that can be integrated with different APIs and technologies'
+                'A tamper-proof system that builds trust and confidence in the ecosystem.'
               }
               href={'#'}
             />
-            
+            <Card
+              heading={'Integrated With IPFS & ZK Proofs'}
+              icon={<Image src={'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686124340/4_ry3m55.png'}/>}
+              description={
+                'Secure data, prove business logic, and enable self-sovereign data with integrated IPFS and ZK Proofs.'
+              }
+              href={'#'}
+            />
           </Flex>
         </Container>
       </Box>

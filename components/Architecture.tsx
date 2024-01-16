@@ -33,7 +33,7 @@ import {
                 backgroundImage= 'linear-gradient(78deg, rgb(59,178,200) 0%, rgb(106,107,206) 100%)'
                 backgroundClip= 'text'
                 fontSize={{ base: '2xl', sm: '4xl', lg: '5xl' }}>
-                VeriFi Architecture
+                Our System Architecture
               </Heading>
               <br/>
               <Text

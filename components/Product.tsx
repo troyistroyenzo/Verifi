@@ -44,7 +44,7 @@ export default function StatsGridWithImage() {
                 backgroundClip= 'text'
                 letterSpacing={-2.25}
                 fontFamily={'inter'}>
-                What businesses can do with VeriFi
+                Our Core Tools
               </Heading>
               {/* <Text fontSize={'1xl'} fontWeight={400} fontFamily={'inter'}>
               Secure Digital Assets with an L3 Decentralized Protocol

@@ -7,7 +7,6 @@ import {
     useBreakpointValue,
   } from '@chakra-ui/react';
 
-  import { motion } from 'framer-motion';
   
   export default function Statement() {
     return (

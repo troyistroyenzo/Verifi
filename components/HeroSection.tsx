@@ -28,11 +28,11 @@ import {
     
   
     return (
-      <Container maxW={'7xl'}>
+      <Container minW={'7xl'}>
         <Stack
           align={'center'}
           spacing={{ base: 8, md: 10 }}
-          py={{ base: 20, md: 28 }}
+          py={{ base: 25, md: 28 }}
           direction={{ base: 'column', md: 'row' }}>
           <Stack flex={1} spacing={{ base: 5, md: 10 }}>
             <Heading
@@ -55,41 +55,47 @@ import {
                   // bg: 'purple.400',
                   zIndex: -1,
                 }}>
-               Manage and Track
+               A Digital Asset Management
               </Text>
               <br />
               <Text as={'span'} >
-              Your Receipts
+              For Your Receipts
               </Text>
             </Heading>
-            <Text fontWeight={700}>
-            A digital assets management tool for tracking your receipts.
+            <Text fontWeight={800}>
+            VeriFi helps companies by using zero-knowledge 
+            rollup technology to improve privacy and scalability of transactions on the network
             </Text>
             <Stack
               spacing={{ base: 4, sm: 6 }}
               direction={{ base: 'column', sm: 'row' }}>
               <a href="https://verifi-mvp.vercel.app/">
-                <Button
-                  size={'lg'}
-                  fontWeight={650}
-                  px={6}
-                  colorScheme={'purple'}
-                  bg={'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 100%)'}
-                  _hover={{ bg: 'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 50%)' }}>
-                  Demo ✨
-                </Button>
+              <Button
+            size={'lg'}
+            color={'white'}
+            fontWeight={650}
+            px={6}
+            backgroundImage={'linear-gradient(78deg, rgb(59,178,200) 0%, rgb(106,107,206) 100%)'}
+            _hover={{
+              backgroundImage: 'linear-gradient(78deg, rgb(15, 45, 50) 0%, rgb(53, 54, 103) 50%)',
+              transition: 'background-image 0.5s ease-in-out', // Fading effect
+            }}>
+            Demo
+          </Button>
               </a>
               <a href="https://yatjbdeqemy.typeform.com/to/kbyiFKsP">
               <Button
-                size={'lg'}
-                fontWeight={650}
-                px={6}
-                colorScheme={'purple'}
-                bg={'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 100%)'}
-                _hover={{ bg: 'linear-gradient(78deg, rgba(159, 122, 234, 1) 0%, rgb(255, 97, 218) 50%)' }}>
-                {/* leftIcon={<PlayIcon h={4} w={4} color={'gray.00'} />}  */}
-                Waitlist 🫸
-              </Button>
+              size={'lg'}
+              fontWeight={650}
+              px={6}
+              colorScheme={'teal'} // Adjusted color scheme
+              backgroundImage={'linear-gradient(78deg, rgb(59,178,200) 0%, rgb(106,107,206) 100%)'}
+              _hover={{
+                backgroundImage: 'linear-gradient(78deg, rgb(15, 45, 50) 0%, rgb(53, 54, 103) 50%)',
+                transition: 'background-image 0.5s ease-in-out', // Fading effect
+              }}>
+              Learn More
+            </Button>
               </a>
             </Stack>
           </Stack>
@@ -99,8 +105,8 @@ import {
             align={'center'}
             position={'relative'}
             maxW={'100%'}>
-            
-            {/* <Image
+   
+             <Image
                 top={90}
                 margin={10}
                 alt={'Hero Image'}
@@ -108,22 +114,11 @@ import {
                 maxWidth={'100%'}
                 src={'https://res.cloudinary.com/dlgyqy69b/image/upload/v1686049883/VeriFi_dtnzcz.png'}
                 contentEditable={false}
-              /> */}
-              
-             
-                <Spline scene="https://prod.spline.design/x92-lH3WVkQ1V2Bd/scene.splinecode" />
-             
-              
-
-              
-
+              /> 
           </Flex>
         </Stack>
-
-       
       </Container>
-   
-      
+         
     );
   }
   

@@ -289,4 +289,304 @@ Date:   Mon Jun 12 15:40:04 2023 +0800
 Author: Troy Enzo <you@example.com>
 Date:   Mon Jun 12 15:33:23 2023 +0800
 
-    adjusted product features, changed styling footer, changed about content, added contact 
+    adjusted product features, changed styling footer, changed about content, added contact page
+
+[33mcommit 81b1d5f2b997d76095a8faff2a460b1420f96665[m
+Author: Troy Enzo <you@example.com>
+Date:   Fri Jun 9 14:11:39 2023 +0800
+
+    changed favicon
+
+[33mcommit 5cd039a579ecca4275843ff24eb920929ec0a60f[m
+Author: Troy Enzo <you@example.com>
+Date:   Fri Jun 9 13:25:09 2023 +0800
+
+    made adjustment in home page
+
+[33mcommit 3c9f55b95abc10f158bb36a808db73defd60939c[m
+Author: Troy Enzo <you@example.com>
+Date:   Fri Jun 9 13:09:21 2023 +0800
+
+    made adjustment in about page (' ' related)
+
+[33mcommit 9eb910de7a15e8647d2629adbd6d27b7a2118db9[m
+Author: Troy Enzo <you@example.com>
+Date:   Fri Jun 9 13:06:03 2023 +0800
+
+    removed extra scroll to right, fixed hero margin
+
+[33mcommit 1d6e1c3814f27d9890ae9e8e0a267a0146d3301b[m
+Author: Troy Enzo <you@example.com>
+Date:   Fri Jun 9 12:52:42 2023 +0800
+
+    added architecture and about section
+
+[33mcommit 118796fb121b51d331fd0f01fb08a4dc5b7e8b93[m
+Author: Troy Enzo <you@example.com>
+Date:   Fri Jun 9 00:11:56 2023 +0800
+
+    changed navbar page order
+
+[33mcommit dcf02cd97e6f4c67e8467b06f9fc0e351f54f918[m
+Author: Troy Enzo <you@example.com>
+Date:   Fri Jun 9 00:10:13 2023 +0800
+
+    removed alt
+
+[33mcommit 94f3322b13d5c0da37400d3bd0c9321d1ad55850[m
+Author: Troy Enzo <you@example.com>
+Date:   Fri Jun 9 00:08:29 2023 +0800
+
+    changed some stuff in about
+
+[33mcommit 9600443c2ad9005acd71270895d4143849c5bb4f[m
+Author: Troy Enzo <you@example.com>
+Date:   Fri Jun 9 00:02:31 2023 +0800
+
+    changed about routing
+
+[33mcommit b22e9d13060eb4b61a133b810ba632aa8e36cdfa[m
+Author: Troy Enzo <you@example.com>
+Date:   Thu Jun 8 23:50:30 2023 +0800
+
+    added about section
+
+[33mcommit d0fd8a1f50740c94443c32d94a6afd7ff8d5d875[m
+Author: Troy Enzo <you@example.com>
+Date:   Thu Jun 8 10:37:20 2023 +0800
+
+    changed fade duration area
+
+[33mcommit 4b259a5fd978e8541764fd5252bfbdd7fb4d9976[m
+Author: Troy Enzo <you@example.com>
+Date:   Thu Jun 8 10:35:19 2023 +0800
+
+    changed fade duration to 5 sec
+
+[33mcommit b4f5c36b18160a021bb60edae8eb62aca17e9fd5[m
+Author: Troy Enzo <you@example.com>
+Date:   Thu Jun 8 10:20:50 2023 +0800
+
+    added fade
+
+[33mcommit ee5c68fc871531da2e20ad0005e9c137ede5514b[m
+Author: Troy Enzo <you@example.com>
+Date:   Thu Jun 8 09:53:33 2023 +0800
+
+    added fade to hero and statement
+
+[33mcommit 85825c25ce9c5066f92376498b789b2237878364[m
+Author: Troy Enzo <you@example.com>
+Date:   Thu Jun 8 09:52:45 2023 +0800
+
+    added fade to hero and statement
+
+[33mcommit 17d5ef97bff9b03752a35d3d0f53645c4e5ed8cc[m
+Author: Troy Enzo <you@example.com>
+Date:   Wed Jun 7 22:13:25 2023 +0800
+
+    adjustments in product like padding
+
+[33mcommit b11b2742c1bb342b0c3a65b48cbf45df1594b912[m
+Author: Troy Enzo <you@example.com>
+Date:   Wed Jun 7 22:02:00 2023 +0800
+
+    added product
+
+[33mcommit 3da523ae4d73de369f2a72f8095ff1627aa713fc[m
+Author: Troy Enzo <you@example.com>
+Date:   Wed Jun 7 21:04:59 2023 +0800
+
+    revert hero size, chagned hero padding
+
+[33mcommit 47bca6600e07a5492c75fd9661e2167aaf478ea0[m
+Author: Troy Enzo <you@example.com>
+Date:   Wed Jun 7 21:02:20 2023 +0800
+
+    fixed hero image padding
+
+[33mcommit a5b8f1cb683890a7b28b1ae5fd11ba835cd80ef5[m
+Author: Troy Enzo <you@example.com>
+Date:   Wed Jun 7 20:40:02 2023 +0800
+
+    changed global css
+
+[33mcommit 3a5c2c2d7f8a465e10ee0325bafafff743f24068[m
+Author: Troy Enzo <you@example.com>
+Date:   Wed Jun 7 20:31:29 2023 +0800
+
+    revert to inter
+
+[33mcommit d5095236b651a8c83bbabc4b944146b5a9956b39[m
+Author: Troy Enzo <you@example.com>
+Date:   Wed Jun 7 20:30:03 2023 +0800
+
+    added heebo
+
+[33mcommit f52551f2bded26ba939212d9298770fb45e509ea[m
+Author: Troy Enzo <you@example.com>
+Date:   Wed Jun 7 20:24:04 2023 +0800
+
+    added Inter
+
+[33mcommit a59b90609df685b460b57a11bc7ae9345f02a77f[m
+Author: Troy Enzo <you@example.com>
+Date:   Wed Jun 7 20:22:03 2023 +0800
+
+    added inter
+
+[33mcommit b53fc44ae5f22e07246dded59c69b342805fa679[m
+Author: Troy Enzo <you@example.com>
+Date:   Wed Jun 7 19:41:41 2023 +0800
+
+    changed whitepaper styling
+
+[33mcommit 613b9c2664d8f97610007fbe820af2db3a185f6d[m
+Author: Troy Enzo <you@example.com>
+Date:   Wed Jun 7 19:25:29 2023 +0800
+
+    changed hero button styling
+
+[33mcommit 87264aec39ed03f88bdb2ffe77557988da6bd96f[m
+Author: Troy Enzo <you@example.com>
+Date:   Wed Jun 7 19:22:03 2023 +0800
+
+    changed hero styling to default
+
+[33mcommit 5bf789be18f4f8916b9051d8f26e544f4378a84c[m
+Author: Troy Enzo <you@example.com>
+Date:   Wed Jun 7 19:20:33 2023 +0800
+
+    changed hero styling
+
+[33mcommit e5b760dbd4ac34f126a1bff12ec36d0fafbec3b5[m
+Author: Troy Enzo <you@example.com>
+Date:   Wed Jun 7 19:18:13 2023 +0800
+
+    changed font
+
+[33mcommit c9c8a6ba31855f333fec807379fb1eac418fa4ec[m
+Author: Troy Enzo <you@example.com>
+Date:   Wed Jun 7 18:22:57 2023 +0800
+
+    added icons and styled features section
+
+[33mcommit 7efab571f044c6f70082be2f7e7880cd9ce997a5[m
+Author: Troy Enzo <you@example.com>
+Date:   Wed Jun 7 15:59:17 2023 +0800
+
+    added new features and design to homepage
+
+[33mcommit 9658833d3ae4424cb2594e4025acd23444532d22[m
+Author: Troy Enzo <you@example.com>
+Date:   Tue Jun 6 19:48:43 2023 +0800
+
+    added minor adjustments to style
+
+[33mcommit 37aea2c303fc2907e1eed4318ce94e87d8432562[m
+Author: Troy Enzo <you@example.com>
+Date:   Tue Jun 6 19:48:01 2023 +0800
+
+    added start now button
+
+[33mcommit cb7f31197ef732fac4dd40f46ffd296aa29bd9f3[m
+Author: Troy Enzo <you@example.com>
+Date:   Tue Jun 6 19:22:40 2023 +0800
+
+    added start now button
+
+[33mcommit a0628534125ab172c1bdb4b0880c5e590946f924[m
+Author: Troy Enzo <you@example.com>
+Date:   Tue Jun 6 19:19:54 2023 +0800
+
+    changed branding and added media
+
+[33mcommit 92e09f6a95a7a968115d3fe38dab2867cf3a0b60[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 5 16:01:44 2023 +0800
+
+    changed navbar details
+
+[33mcommit e70de572a215cdf9e10fb232096d65ccb0867924[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 5 15:55:30 2023 +0800
+
+    changed testimonials code again and removed from pages
+
+[33mcommit b1241c32c2b01115dde92cc68579a4e4a6f283a3[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 5 15:37:33 2023 +0800
+
+    changed testimonials code
+
+[33mcommit 7d2ff1891a412e2367165838d6abee77818edf71[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 5 15:34:25 2023 +0800
+
+    added major modal features
+
+[33mcommit 9f5d9653779535807d1434ca013ca08f12f9ff61[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 5 14:14:14 2023 +0800
+
+    add features
+
+[33mcommit 0438195aa1e6a280280cf9f9eea1bac352c68fb9[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 5 14:12:59 2023 +0800
+
+    add hero section
+
+[33mcommit e2cd54b23958d3a86ea1b6b6c726761e67c94440[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 5 14:09:27 2023 +0800
+
+    removed testimonial code root
+
+[33mcommit 0e618094cdb6f2a0e1c026beba2ea188d7228c20[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 5 14:06:54 2023 +0800
+
+    removed testimonial code
+
+[33mcommit 1bc510d26b992860d6af5492433a8b6dd37cda88[m
+Author: Troy Enzo <you@example.com>
+Date:   Mon Jun 5 14:03:46 2023 +0800
+
+    removed footer for now
+
+[33mcommit f1dedd3d974aff896882cb346f8f8796497fcc0e[m
+Author: Troy Enzo <you@example.com>
+Date:   Sun Jun 4 15:01:21 2023 +0800
+
+    removed footer for now
+
+[33mcommit cdef5c3a62636acf60c7e958ce84132370673924[m
+Author: Troy Enzo <you@example.com>
+Date:   Sun Jun 4 14:57:56 2023 +0800
+
+    removed sections and changed some code
+
+[33mcommit 8c8e89e97e50d0994a47c24a0124596c54612785[m
+Author: Troy Enzo <you@example.com>
+Date:   Sun Jun 4 14:47:22 2023 +0800
+
+    install dependencie with NPM
+
+[33mcommit 55e195288346d6bf2d6431cac4061338a8aac680[m
+Author: Troy Enzo <you@example.com>
+Date:   Sun Jun 4 14:43:59 2023 +0800
+
+    install dependencies
+
+[33mcommit 8277209ecf39e740f19c3d8d426ebfdd314556bc[m
+Author: Troy Enzo <you@example.com>
+Date:   Sun Jun 4 14:35:35 2023 +0800
+
+    first commit
+
+[33mcommit 805e3650851d07c46ead7110acfbac9992344db2[m
+Author: Troy Enzo <you@example.com>
+Date:   Sun Jun 4 13:57:16 2023 +0800
+
+    Initial commit from Create Next App
